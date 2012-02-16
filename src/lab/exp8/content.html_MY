@@ -1,98 +1,12 @@
-<!-- This file needs to be edited by the lab developer to suit
-the requirements of their lab in particular.-->
-
-<!-- Add class="default" to include any element as it is
-specified in default.html. 
-Do not include class="default" to the elements that you want to
-edit -->
-
 <!DOCTYPE html>
-<html>
 <head></head>
-<body>
+<h1 id="main-title">
+Many-body Forces in a Polyatomic Molecule
+</h1>
 
-<div id="experiment"> <!-- The Experiment Document Container-->
-
-  <!-- The lab Header contains the logo and the name of the lab,
-  usually displayed on the top of the page-->
-
-  <header id="experiment-header" class="default">
-  
-    <div id="experiment-header-logo" class="logo">
-      <!-- Enclose the logo image of your lab or write it in 
-      text-->
-      <img src="../images/logo.jpg" />
-    </div>
-
-    <div id="experiment-header-heading" class="heading">
-      <!-- Write the name of your lab and link it to the home 
-      page of your lab (h1 tag is preferred while writing your 
-      lab name)-->
-      <a href="../index.html">Molecular Interactions</a>	
-    </div>
-
-    <!-- Add any additional element you want to add to the lab 
-    header, For example : Help (Enclosing them with suitable 
-    div is recommended)-->
-
-  </header>
-
-
-  <!-- The lab article is the main content area where all the 
-  experiment content sits-->
-  <article id="experiment-article">
-  
-    <!-- The lab article has an header, optional navigational 
-    menu, number of sections, an optional sidebar and a closing 
-    footer-->
-     <div id="experiment-article-breadcrumb" class="breadcrumb">
-     </div>
-    
-      <header id="experiment-article-heading" class="heading">
-        <!-- You can add a welcome message or title of the 
-        experiment here -->
-        Many-body forces in a polyatomic molecule
-        <!-- Add any additional element if required with proper 
-        enclosing-->
-      </header>
-
-      <!-- Navigation menu is useful to organize the view of 
-      multiple sections inside the article-->
-      <nav id="experiment-article-navigation" class="default">
-        <ul id="experiment-article-navigation-menu">
-          <!-- The menu can be dynamically generated to contain 
-          the headings of your sections or instead write the 
-          menu items of your choice individually enclosedu in 
-          <li> tag as shown below-->
-        </ul>
-      </nav>
-
-      <!-- All the sections of your lab or experiment can be 
-      enclosed together with a div element as shown below-->
-      <div id="experiment-article-sections">
-
-        <!-- First section of the article-->
-        <section id="experiment-article-section-1">
-          
-          <div id="experiment-article-section-1-icon" 
-          class="icon">
-	    <!-- Enclose the icon image of your lab -->
-	    <img src="../images/introduction.jpg" />
-	  </div>	
-          
-          <!-- The heading for the section can be enclosed in a 
-          div tag. -->
-          <div id="experiment-article-section-1-heading" 
-          class="heading">
-            Introduction
-          </div>
-
-          <!-- Write the section content inside a paragraph 
-          element, You can also include images with <img> tag -->
-          <div id="experiment-article-section-1-content" 
-          class="content">	
-            <p>
-            <p align="justify">
+<div id="introduction">
+	<h2>Introduction </h2>
+	<p align="justify">
 <p align="justify"><li>A polyatomic molecule has more than three atoms.Examples are Hexane,Octane etc.The Bonded and non bonded interactions 
 determine the total energy for the molecule.Bonded interactions include bond strecthing,bond bending,change in proper and improper dihedral.Non bonded interactions include 
 electrostatic and vanderwaals interactions.The figure below shows a polyatomic molecule hexane. 
@@ -126,33 +40,10 @@ electrostatic and vanderwaals interactions.The figure below shows a polyatomic m
 </h2>	
 	</p>
 	
-        </div>
-
-
-      </section>
-
-      <!-- Second section of the article-->
-      <section id="experiment-article-section-2">
-        
-        <div id="experiment-article-section-2-icon" 
-        class="icon">
-	  <!-- Enclose the icon image of your lab. -->
-	  <img src="../images/theory.jpg" />
-	</div>
-				
-        <!-- The heading for the section can be enclosed in a 
-        div tag. -->
-        <div id="experiment-article-section-2-heading" 
-        class="heading">
-          Theory
-        </div>
-
-
-        <!-- Write the section content inside a paragraph 
-        element, we can also include images with <img> tag -->
-        <div id="experiment-article-section-2-content" 
-        class="content">
-          <p align="justify">	
+</div>
+<div id="theory">
+	<h2>Theory</h2> 
+	<p align="justify">	
 <b>Bond Streching:</b>
 
 
@@ -471,79 +362,34 @@ the molecule, mostly coinciding with the nuclei of the atoms. For ions their cha
 </tr>
 </table>
 
-          </p>
-
-        </div>
-      </section>
 
 
-      <section id="experiment-article-section-3">
-        
-        <div id="experiment-article-section-3-icon" 
-        class="icon">
-	  <!-- Enclose the icon image of your lab. -->
-	  <img src="../images/objective.jpg" />
-	</div>
-     
-        <div id="experiment-article-section-3-heading" 
-        class="heading">
-          Objective
-        </div>
+<!--<img src= "elec_force.png" height= "100" width= "100"</li>-->
+	</p> 
+</div>
 
-        <div id="experiment-article-section-3-content" 
-        class="content">
-          <p>
-           To determine the interatomic forces on a polyatomic molecule using magnetic tweezers
-          </p> 
-       
-          <img  src="http://cite.iiit.ac.in/vlab/cITe/images/eerc/Expr1/simple-pendulum.JPG" 
-          alt="simple pendulum" />
-
-        </div>
-
-      </section>
+<div id="objective">
+	<h2> Objective </h2> 
+	<p>
+To determine the interatomic forces on a polyatomic molecule using magnetic tweezers.
+	 <span> </span> <span> 		 </span>.
+	</p> 
+	<img  src=" alt="" /> 
+</div>
 
 
-      <section id="experiment-article-section-4">
+<div id="Experiments">
+	<h2> Experiments </h2>
+	<a href="../suraj/Suraj/bin/1.html">Click Here</a>
+	
+	
+	
+</div>
 
-        <div id="experiment-article-section-4-icon" 
-        class="icon">
-	  <!-- Enclose the icon image of your lab.-->
-	  <img src="../images/simulation.jpg" />
-	</div>
 
-        <div id="experiment-article-section-4-heading" 
-        class="heading">
-          Experiment
-        </div>
-
-        <div id="experiment-article-section-4-content" 
-        class="content">
-          <p>
-	     <a href="../suraj/Suraj/bin/1.html">Click Here</a>
-	        
-            
-          </p>
-        </div>
-
-      </section>
-
-      <section id="experiment-article-section-5">
-   
-        <div id="experiment-article-section-5-icon" 
-        class="icon">
-	  <!-- Enclose the icon image of your lab.-->
-	  <img src="../images/manual.jpg" />
-	</div>
-
-        <div id="experiment-article-section-5-heading" 
-        class="heading">
-          Manual
-        </div>
-
-        <div id="experiment-article-section-5-content" 
-        class="content">
-          <p>
+<div id="manual">
+	<h2> Manual </h2> 
+	<p>
 	There are certain parameters to be initialized and the procedure detailed here can be followed.
 <img src= "images/startdiatomic.png"  width= "300" height= "400"
 </p>
@@ -566,30 +412,11 @@ Step 3: The coordinates of particles can be changed by the position of slider.
 Step 5: The plot of change in energy with respect to change in position of magnet coordinates is seen.
 <img src= "images/Screenshot-3.png" width= "300" height= "400" 
 </p> 	
+</div>
 
-          </div>
-
-        </section>
-
-        <section id="experiment-article-section-6">
-      
-          <div id="experiment-article-section-6-icon" 
-          class="icon">
-	    <!-- Enclose the icon image of your lab.-->
-	    <img src="../images/quizzes.jpg" />
-	  </div>
-
-          <div id="experiment-article-section-6-heading" 
-          class="heading">
-            Quizzes
-          </div>
-
-          <div id="experiment-article-section-6-content" 
-          class="content">
-            
-            <p>
-              
-             <p>
+<div id="quizzes">
+	<h2>Quiz</h2> 
+	<p>
 	<b>Q1.</b> Bending requires less energy than strecthing <br> 
 	<input type="radio" name="q1" id="q1" value="1"> <font color="green"> True </font> <br> 
 	<input type="radio" name="q1" id="q1" value="0"><font color="red"> False </font> <br/><br/> 
@@ -606,53 +433,12 @@ Step 5: The plot of change in energy with respect to change in position of magne
 	<input type="radio" name="q5" id="q5" value="1"> <font color="green"> True </font> <br> 
 	<input type="radio" name="q5" id="q5"value="0"><font color="red"> False </font> <br/><br/> 
 	<input type="submit" value="Submit Answers">
-	</p>  value="Submit Answers" 
-              
-            </p>
+	</p> 
+</div>
 
-          </div>
-
-        </section>
-
-        <section id="experiment-article-section-7">
-	  
-          <div id="experiment-article-section-7-icon" 
-          class="icon">
-	    <!-- Enclose the icon image of your lab. -->
-	    <img src="../images/procedure.jpg" />
-	  </div>
-	
-          <div id="experiment-article-section-7-heading" 
-          class="heading">
-	    Procedure
-	  </div>
-	
-          <div id="experiment-article-section-7-content" 
-          class="content">
-	    <p>
-	      Procedure for the experiment is as follows.
-	    </p>
-	  </div>
-	
-        </section>
-			
-		
-        <section id="experiment-article-section-8">
-   
-          <div id="experiment-article-section-8-icon" 
-          class="icon">
-	    <!-- Enclose the icon image of your lab.-->
-	    <img src="../images/readings.jpg" />
-	  </div>
-
-          <div id="experiment-article-section-8-heading" 
-          class="heading">
-            Further Readings
-          </div>
-
-          <div id="experiment-article-section-8-content" 
-          class="content">
-           <ol>	
+<div id="readings"> 
+	<h2> further-readings </h2> 
+	<ol>	
 		<li>
 1)Andrew Leech "Modelling and s"
 2)Linus Pauling "The Nature of Chemical Bond"
@@ -676,38 +462,5 @@ Mark C. Williams Northeastern University.
 		</a> 
 		</li>
 	</ol>
-          </div>
+</div>
 
-        </section>
-
-      </div>
-
-
-    <!-- An article can have a sidebar that contain related 
-    links and additional material (however it is kept optional 
-    at this moment) -->
-    <aside id="lab-article-sidebar" class="default">
-      <!-- put the content that you want to appear in the 
-      sidebar -->	
-    </aside>
-
-
-    <!-- Article footer can display related content and 
-    additional links -->						
-    <footer id="lab-article-footer" class="default">
-      <!-- Put the content that you want to appear here -->
-    </footer>
-
-  </article>
-
-
-  <!-- Links to other labs, about us page can be kept the lab 
-  footer-->
-  <footer id="lab-footer" class="default">
-    <!-- Put the content here-->
-  </footer>
-
-</div>		
-
-</body>
-</html>
