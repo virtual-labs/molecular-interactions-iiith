@@ -1,0 +1,4 @@
+type   K_ijkl(kcal/mole) n  delta_ijkl(degrees)
+0      0.1500  1     0.00
+1      0.0400  3     0.00
+2      0.1950  3     0.00
