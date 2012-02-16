@@ -1,12 +1,97 @@
-<!DOCTYPE html>
-<head></head>
-<h1 id="main-title">
-Interatomic Van der Waals Forces. 
-</h1>
+<!-- This file needs to be edited by the lab developer to suit
+the requirements of their lab in particular.-->
 
-<div id="introduction">
-	<h2>Introduction </h2>
-	<p align="justify">
+<!-- Add class="default" to include any element as it is
+specified in default.html. 
+Do not include class="default" to the elements that you want to
+edit -->
+
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+
+<div id="experiment"> <!-- The Experiment Document Container-->
+
+  <!-- The lab Header contains the logo and the name of the lab,
+  usually displayed on the top of the page-->
+
+  <header id="experiment-header" class="default">
+  
+    <div id="experiment-header-logo" class="logo">
+      <!-- Enclose the logo image of your lab or write it in 
+      text-->
+      <img src="../images/logo.jpg" />
+    </div>
+
+    <div id="experiment-header-heading" class="heading">
+      <!-- Write the name of your lab and link it to the home 
+      page of your lab (h1 tag is preferred while writing your 
+      lab name)-->
+      <a href="../index.html">Molecular Interactions</a>	
+    </div>
+
+    <!-- Add any additional element you want to add to the lab 
+    header, For example : Help (Enclosing them with suitable 
+    div is recommended)-->
+
+  </header>
+
+
+  <!-- The lab article is the main content area where all the 
+  experiment content sits-->
+  <article id="experiment-article">
+  
+    <!-- The lab article has an header, optional navigational 
+    menu, number of sections, an optional sidebar and a closing 
+    footer-->
+     <div id="experiment-article-breadcrumb" class="breadcrumb">
+     </div>
+    
+      <header id="experiment-article-heading" class="heading">
+        <!-- You can add a welcome message or title of the 
+        experiment here -->
+        Interatomic van der Waals forces
+        <!-- Add any additional element if required with proper 
+        enclosing-->
+      </header>
+
+      <!-- Navigation menu is useful to organize the view of 
+      multiple sections inside the article-->
+      <nav id="experiment-article-navigation" class="default">
+        <ul id="experiment-article-navigation-menu">
+          <!-- The menu can be dynamically generated to contain 
+          the headings of your sections or instead write the 
+          menu items of your choice individually enclosedu in 
+          <li> tag as shown below-->
+        </ul>
+      </nav>
+
+      <!-- All the sections of your lab or experiment can be 
+      enclosed together with a div element as shown below-->
+      <div id="experiment-article-sections">
+
+        <!-- First section of the article-->
+        <section id="experiment-article-section-1">
+          
+          <div id="experiment-article-section-1-icon" 
+          class="icon">
+	    <!-- Enclose the icon image of your lab -->
+	    <img src="../images/introduction.jpg" />
+	  </div>	
+          
+          <!-- The heading for the section can be enclosed in a 
+          div tag. -->
+          <div id="experiment-article-section-1-heading" 
+          class="heading">
+            Introduction
+          </div>
+
+          <!-- Write the section content inside a paragraph 
+          element, You can also include images with <img> tag -->
+          <div id="experiment-article-section-1-content" 
+          class="content">	
+            <p align="justify">
 The Lennard-Jones potential  is a mathematically simple model that approximates the interaction between a pair of neutral atoms or molecules. A form of the potential was first proposed in 1924 by <b>John Lennard-Jones</b>.This potential is a combination of both the attractive and repulsive part forces present between the atoms. Assuming an atom at the infinite distance approaches the another atom,the energy is zero when they are present at the infinite distance. As the, distance between them decreases energy reaches a minium and then increases rapidly.<br>The figure below shows what happens when we bring the atoms closer from an infinite distance.we can imagine atoms to be like balls.
 </p>
 <table cellpadding="0" cellspacing="0" border="0" align="center">
@@ -14,10 +99,33 @@ The Lennard-Jones potential  is a mathematically simple model that approximates 
 <img src= "images/lennard1.jpg" align="middle"/>
 </tr>
 </table>
-</div>
-<div id="theory">
-	<h2>Theory</h2> 
-	<p align="justify">	
+        </div>
+
+
+      </section>
+
+      <!-- Second section of the article-->
+      <section id="experiment-article-section-2">
+        
+        <div id="experiment-article-section-2-icon" 
+        class="icon">
+	  <!-- Enclose the icon image of your lab. -->
+	  <img src="../images/theory.jpg" />
+	</div>
+				
+        <!-- The heading for the section can be enclosed in a 
+        div tag. -->
+        <div id="experiment-article-section-2-heading" 
+        class="heading">
+          Theory
+        </div>
+
+
+        <!-- Write the section content inside a paragraph 
+        element, we can also include images with <img> tag -->
+        <div id="experiment-article-section-2-content" 
+        class="content">
+         <p align="justify">	
 The  Lennard Jones Potential is common potential used to model VanderWaals interactions which is expressed as follows,</p>
 <table cellpadding="0" cellspacing="0" border="0" align="center">
 <tr>
@@ -33,26 +141,76 @@ The  Lennard Jones Potential is common potential used to model VanderWaals inter
  <!--<p>&#963<sub>ij</sub>=1/2(&#963<sub>ii</sub>+&#963<sub>jj</sub>),&#949<sub>ij</sub> =&#8730 &#949<sub>ii</sub> &#949<sub>jj</sub> </br>.-->
  <p align="justify">The term r<sup>-12</sup>is called repulsive term,observed at short ranges due to overlapping of electron orbitals.The term r<sup>-6</sup>describes the 
  attraction at long ranges.</p>
-</div>
 
-<div id="objective">
-	<h2> Objective </h2> 
-	<p>
-To demonstrate Van der Waals interactions between a pair of non bonded atoms.
-
-</div>
-<div id="Experiment">
-	<h2> Experiment </h2>
- <li>
-                <a href="../suraj/Suraj/bin/Electrostatic.html">click here</a>
-                </li>
-
-</div>
+        </div>
+      </section>
 
 
-<div id="manual">
-	<h2> Manual </h2> 
-       <p align="justify>
+      <section id="experiment-article-section-3">
+        
+        <div id="experiment-article-section-3-icon" 
+        class="icon">
+	  <!-- Enclose the icon image of your lab. -->
+	  <img src="../images/objective.jpg" />
+	</div>
+     
+        <div id="experiment-article-section-3-heading" 
+        class="heading">
+          Objective
+        </div>
+
+        <div id="experiment-article-section-3-content" 
+        class="content">
+          <p>
+            To demonstrate Van der Waals interactions between a pair of non bonded atoms.
+          </p> 
+       
+          <img  src="http://cite.iiit.ac.in/vlab/cITe/images/eerc/Expr1/simple-pendulum.JPG" 
+          alt="simple pendulum" />
+
+        </div>
+
+      </section>
+
+
+      <section id="experiment-article-section-4">
+
+        <div id="experiment-article-section-4-icon" 
+        class="icon">
+	  <!-- Enclose the icon image of your lab.-->
+	  <img src="../images/simulation.jpg" />
+	</div>
+
+        <div id="experiment-article-section-4-heading" 
+        class="heading">
+          Experiment
+        </div>
+
+        <div id="experiment-article-section-4-content" 
+        class="content">
+          <p>
+	     <a href="../suraj/Suraj/bin/Electrostatic.html">click here</a>
+          </p>
+        </div>
+
+      </section>
+
+      <section id="experiment-article-section-5">
+   
+        <div id="experiment-article-section-5-icon" 
+        class="icon">
+	  <!-- Enclose the icon image of your lab.-->
+	  <img src="../images/manual.jpg" />
+	</div>
+
+        <div id="experiment-article-section-5-heading" 
+        class="heading">
+          Manual
+        </div>
+
+        <div id="experiment-article-section-5-content" 
+        class="content">
+          <p align="justify>
 There are certain parameters to be initialized and the procedure detailed here can be followed.
 </p>
 <p align="justify">
@@ -67,27 +225,74 @@ Step2:The coordinates of particles can be varied by changing the position of sli
 Step3: Sigma factor for both the particles can be increased of decreased by moving the slider shown below.
 <img src= "images/Screenshot-2.png" width= "300" height= "300"
 </p>
-<p>
-<!--Step 4: The magnet position can be varied by x&y  the coordinates of magnet,using the slider provided.
-<img src= "images/coor.png" width= "300" height= "300" 
-</p>
-<p align="justify">
-Step 4: The internuclear force and the potential energy are plotted as a function of the internuclear seperation and to "stop" the experiment,use stop tab.
-<img src= "images/energy.png" width= "300" height= "300"-->
-</p>
 
-</div>
+          </div>
 
-<div id="quizzes">
-        <h2>Quiz</h2>
-        <p>
-     <a href="./quiz.php">Click Here</a>
-        </p>
-</div>
+        </section>
 
-<div id="readings"> 
-	<h2> Further-Readings </h2> 
-	<ol>	
+        <section id="experiment-article-section-6">
+      
+          <div id="experiment-article-section-6-icon" 
+          class="icon">
+	    <!-- Enclose the icon image of your lab.-->
+	    <img src="../images/quizzes.jpg" />
+	  </div>
+
+          <div id="experiment-article-section-6-heading" 
+          class="heading">
+            Quizzes
+          </div>
+
+          <div id="experiment-article-section-6-content" 
+          class="content">
+            
+            <p>
+              
+              <a href="./quiz.php">Click Here</a>
+
+          </div>
+
+        </section>
+
+        <section id="experiment-article-section-7">
+	  
+          <div id="experiment-article-section-7-icon" 
+          class="icon">
+	    <!-- Enclose the icon image of your lab. -->
+	    <img src="../images/procedure.jpg" />
+	  </div>
+	
+          <div id="experiment-article-section-7-heading" 
+          class="heading">
+	    Procedure
+	  </div>
+	
+          <div id="experiment-article-section-7-content" 
+          class="content">
+	    <p>
+	      Procedure for the experiment is as follows.
+	    </p>
+	  </div>
+	
+        </section>
+			
+		
+        <section id="experiment-article-section-8">
+   
+          <div id="experiment-article-section-8-icon" 
+          class="icon">
+	    <!-- Enclose the icon image of your lab.-->
+	    <img src="../images/readings.jpg" />
+	  </div>
+
+          <div id="experiment-article-section-8-heading" 
+          class="heading">
+            Further Readings
+          </div>
+
+          <div id="experiment-article-section-8-content" 
+          class="content">
+           <ol>	
 		<li>
 1) Physical Chemistry by P.W.Atkins.<br>
 2) Intermolecular and Surface Forces by Jacob Israelachivili<br>
@@ -107,5 +312,38 @@ Step 4: The internuclear force and the potential energy are plotted as a functio
 		</a> 
 		</li>
 	</ol>
-</div>
+          </div>
 
+        </section>
+
+      </div>
+
+
+    <!-- An article can have a sidebar that contain related 
+    links and additional material (however it is kept optional 
+    at this moment) -->
+    <aside id="lab-article-sidebar" class="default">
+      <!-- put the content that you want to appear in the 
+      sidebar -->	
+    </aside>
+
+
+    <!-- Article footer can display related content and 
+    additional links -->						
+    <footer id="lab-article-footer" class="default">
+      <!-- Put the content that you want to appear here -->
+    </footer>
+
+  </article>
+
+
+  <!-- Links to other labs, about us page can be kept the lab 
+  footer-->
+  <footer id="lab-footer" class="default">
+    <!-- Put the content here-->
+  </footer>
+
+</div>		
+
+</body>
+</html>

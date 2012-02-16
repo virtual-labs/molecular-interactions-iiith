@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<head></head>
+<h1 id="main-title">
+Interatomic Van der Waals Forces. 
+</h1>
+
+<div id="introduction">
+	<h2>Introduction </h2>
+	<p align="justify">
+The Lennard-Jones potential  is a mathematically simple model that approximates the interaction between a pair of neutral atoms or molecules. A form of the potential was first proposed in 1924 by <b>John Lennard-Jones</b>.This potential is a combination of both the attractive and repulsive part forces present between the atoms. Assuming an atom at the infinite distance approaches the another atom,the energy is zero when they are present at the infinite distance. As the, distance between them decreases energy reaches a minium and then increases rapidly.<br>The figure below shows what happens when we bring the atoms closer from an infinite distance.we can imagine atoms to be like balls.
+</p>
+<table cellpadding="0" cellspacing="0" border="0" align="center">
+<tr>
+<img src= "images/lennard1.jpg" align="middle"/>
+</tr>
+</table>
+</div>
+<div id="theory">
+	<h2>Theory</h2> 
+	<p align="justify">	
+The  Lennard Jones Potential is common potential used to model VanderWaals interactions which is expressed as follows,</p>
+<table cellpadding="0" cellspacing="0" border="0" align="center">
+<tr>
+<img src= "images/vanderwaal.jpg" align="middle"/>
+</tr>
+</table>
+<font size="4"><b>&#949</b></font> - - the minimum (well depth) of the potential for the interaction between atom i and j.</br>
+ <!--<p><b>&#949<sub></sub></b> - the minimum (well depth) of the potential for the interaction between atom i and j.</br>-->
+ <p><font size="4"><b>&#963<sub>ij</sub></b></font> - the collision diameter,at which inter particle potential is zero.</p>
+ <p><b>r<sub>ij</sub></b>  - the distance between the particles.</p>
+ The parameters &#949,&#963 is not given for a specific pair and can be found by using Lorentz-berthelot rules,
+<li><img src= "images/IVw4.png" height = "35" width ="20"</li>
+ <!--<p>&#963<sub>ij</sub>=1/2(&#963<sub>ii</sub>+&#963<sub>jj</sub>),&#949<sub>ij</sub> =&#8730 &#949<sub>ii</sub> &#949<sub>jj</sub> </br>.-->
+ <p align="justify">The term r<sup>-12</sup>is called repulsive term,observed at short ranges due to overlapping of electron orbitals.The term r<sup>-6</sup>describes the 
+ attraction at long ranges.</p>
+</div>
+
+<div id="objective">
+	<h2> Objective </h2> 
+	<p>
+To demonstrate Van der Waals interactions between a pair of non bonded atoms.
+
+</div>
+<div id="Experiment">
+	<h2> Experiment </h2>
+ <li>
+                <a href="../suraj/Suraj/bin/Electrostatic.html">click here</a>
+                </li>
+
+</div>
+
+
+<div id="manual">
+	<h2> Manual </h2> 
+       <p align="justify>
+There are certain parameters to be initialized and the procedure detailed here can be followed.
+</p>
+<p align="justify">
+Step 1: Click on 'start' to start the experiment.
+<img src= "images/Screenshot.png"  width= "300" height= "300"
+</p>
+<p align="justify">
+Step2:The coordinates of particles can be varied by changing the position of sliders,a plot of energy ,force is seen.  
+<img src= "images/Screenshot-1.png"  width= "300" height= "300"
+</p>
+<p align="justify">
+Step3: Sigma factor for both the particles can be increased of decreased by moving the slider shown below.
+<img src= "images/Screenshot-2.png" width= "300" height= "300"
+</p>
+<p>
+<!--Step 4: The magnet position can be varied by x&y  the coordinates of magnet,using the slider provided.
+<img src= "images/coor.png" width= "300" height= "300" 
+</p>
+<p align="justify">
+Step 4: The internuclear force and the potential energy are plotted as a function of the internuclear seperation and to "stop" the experiment,use stop tab.
+<img src= "images/energy.png" width= "300" height= "300"-->
+</p>
+
+</div>
+
+<div id="quizzes">
+        <h2>Quiz</h2>
+        <p>
+     <a href="./quiz.php">Click Here</a>
+        </p>
+</div>
+
+<div id="readings"> 
+	<h2> Further-Readings </h2> 
+	<ol>	
+		<li>
+1) Physical Chemistry by P.W.Atkins.<br>
+2) Intermolecular and Surface Forces by Jacob Israelachivili<br>
+3) Dynamics of structures by Anil K chopra.<br>
+4) http://www.stanford.edu/group/blocklab/Optical%20Tweezers%20Introduction.htm<br>
+5) http://www.biop.dk/Research/Main_research_tweezers.htm<br>
+6) http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1564163/<br>
+
+		<a href="http://en.wikipedia.org/wiki/Simple_harmonic_motion">http://en.wikipedia.org/wiki/Simple_harmonic_motion</a>
+		</li>
+		<li>
+		<a href="http://www.physics.uoguelph.ca/tutorials/shm/Q.shm.html">http://www.physics.uoguelph.ca/tutorials/shm/Q.shm.html</a>
+		</li>  
+ 		<li>
+		<a href="http://surendranath.tripod.com/Applets/Oscillations/SHM/SHMApplet.html">
+		http://surendranath.tripod.com/Applets/Oscillations/SHM/SHMApplet.html
+		</a> 
+		</li>
+	</ol>
+</div>
+
