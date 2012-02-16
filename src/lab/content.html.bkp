@@ -31,7 +31,7 @@ edit -->
     <div id="lab-header-heading" class="heading">
     <!-- Write the name of your lab and link it to the home page
     of your lab. -->
-      <a href="index.html">Molecular Interactions</a>	
+      <a href="index.html">My Lab</a>	
     </div>
 
     <!-- Add any additional element or link you want to add to 
@@ -54,7 +54,7 @@ edit -->
       <!-- You can add a welcome message or title of the 
       experiment enclosed in h1 tag here -->
       <div id="lab-article-heading" class="heading">
-        Welcome to Molecular Interactions lab!
+        Welcome to my lab!
       </div>
 
       <!-- Add any additional element if required with proper 
@@ -95,23 +95,12 @@ edit -->
 	<!-- Write the section content inside a paragraph 
         element, You can also include images with <img> tag -->
 	<div id="lab-article-section-1-content" class="content">
-	  <p align="justify">
-
-Molecular forces determine the physico-chemical properties of various forms of matter such as gases, liquids and solids. The major focus of this virtual lab is to 
-provide a thorough grounding in the fundamental concepts of molecular forces (without using quantum mechanical principles) to undergraduate students and 
-introduce them to the optical and magnetic tweezer experimental techniques that are used to measure molecular forces. 
-</p>
- <p align="justify">
-The most stable geometry of a molecule is determined by the balance of attractive and repulsive forces between its atoms. 
-The interactions between the atoms of a molecule can be split into two groups, bonded and non-bonded interactions. 
-In the former group all intramolecular interactions such as bonds, angles and dihedrals are being taken care of, 
-whereas in the latter interactions such as Van der Waals and electrostatics are considered. 
-</p>
- <p align="justify">
-The aim of this lab is to use optical and magnetic tweezer experiments to understand the nature of molecular forces and associated parameters
-that quantify the strengths of these atomic interactions. 
-</p>
-
+	  <p>
+	    Welcome to the Physics lab!  In this lab, we will do
+            virtual experiments to understand Newton's laws of 
+            motion.  We will start with a simple pendulum, and 
+            from then on, the experiments get more interesting.
+	  </p>
 	</div>
 	
       </section>
@@ -137,87 +126,10 @@ that quantify the strengths of these atomic interactions.
         <div id="lab-article-section-2-content" class="content">
 	  <ul id="list-of-experiments">
 	  
-            <li>
-                       
-
-				<li >
-					<a href="exp1/index.html">
-						<strong> Experiment 1 - Internuclear forces in a diatomic molecule: Optical and magnetic tweezer experiments </strong>
-					</a>
-				</li>
-                                <li >
-                                        <a href="exp2/index.html">
-                                                <strong> Experiment 2 - Molecular forces in a triatomic molecule: A magnetic tweezer experiment </strong>
-                                        </a>
-                                </li>
-				<li >
-					<a href="exp3/index.html">
-						<strong>  Experiment 3- Dihedral forces in a quad-atomic molecule: A magnetic tweezer experiment </strong>
-					</a>
-				</li>
-				<li >
-					<a href="exp4/index.html">
-						<strong> Experiment 4 - Interatomic van der Waals forces</strong>
-					</a>
-				</li> 
-                                <li >
-                                        <a href="exp5/index.html">
-                                                <strong> Experiment 5 - van der Waals forces between molecules</strong>
-                                        </a>
-                                </li>
-                                <li >
-                                        <a href="exp6/index.html">
-                                                <strong>Experiment 6- Interatomic electrostatic forces</strong>
-                                        </a>
-               
-               
-               
-                                </li>
-			 <li >
-                                        <a href="exp7/index.html">
-                                                <strong> Experiment 7 - Electrostatic forces between molecules </strong>
-                                   </a>
-               
-               
-               
-                                </li>
-		
- <li >
-                                        <a href="exp8/index.html">
-                                                <strong> Experiment 8- Many-body forces in a polyatomic molecule</strong>
-                                        </a>
-               
-               
-               
-                                </li>		
-		
-		 <li >
-                                        <a href="exp9/index.html">
-                                                <strong>Experiment 9 - Solvent viscous forces on a polyatomic molecule</strong>
-                                        </a>
-               
-               
-               
-                                </li>
-                                
-			
- <li >
-                                        <a href="exp10/index.html">
-                                                <strong> Experiment 10 - Molecular seperation using interatomic forces: Column chromatography</strong>
-                                        </a>
-               
-               
-               
-                                </li>			
-
-<li >
-                                        <a href="exp11/index.html">
-                                                <strong> Experiment 11 - Radiation forces on a dielectric particle</strong>
-                                        </a>
-
-
-
-                                </li>
+            <li> 
+	      <!--Link and name of the experiment 1 -->
+	      <a href="exp1/index.html">Simple Pendulum Experiment</a> 
+	    </li>
 	  </ul>
 	</div>
 	
@@ -243,7 +155,7 @@ that quantify the strengths of these atomic interactions.
         element, You can also include images with <img> tag -->
         <div id="lab-article-section-3-content" class="content">
 	  <p>
-	    All physical, chemical, and  biological phenomena happening around and within us originate from intermolecular interactions. These interactions (or forces) determine the structure, dynamics, and thermodynamical properties of gases, liquids and solids. Thus, in order to  gain insights into various macroscopic phenomena and properties of macroscopic matter it is essential to understand the nature of interactions and the kinds of forces acting within and between  molecules that constitute the matter.
+	    The experiments are targeted at students who have just finished a first course in programming. Knowledge of writing programs in any programming language is expected. No prior experience with data structuers is required. 
 	  </p>
 	</div>
 	
@@ -266,9 +178,9 @@ that quantify the strengths of these atomic interactions.
 	<!-- Write the section content inside a paragraph 
         element, You can also include images with <img> tag -->
         <div id="lab-article-section-4-content" class="content">
-	<p align="justify"><b> Optical tweezers  :</b> In optical tweezers highly focused laser beam is used to exert forces  on nanometer and micrometer sized dielectric particles.The laser beam consisting of both electric and magnetic field is focused by passing it through microscope objective. The narrowest point of the focused beam known as beam waist contains a very strong electric field gradient so that the  dielectric particles are attracted along the region of strongest electric field which is the center of the beam. 
-       Light consists of photons that each have momentum. A ray of light impinging on the interface of dielectric particle  has its direction of propagation, and therefore its momentum, changed by the interaction of the light with the particle. Since the particle  changes the momentum of the light, an equal and opposite change in momentum of the particle occurs. The resultant force of the light on the particle due to refraction is always in the direction of the focus of the light . Thus, in the absence of other forces, the particle is attracted to the focal point of the light.This force is known as scattering force.
-</p>
+	  <p>
+	    The present lab is aligned with courses such as Introduction to Data Structures, Data Structures in C/C++, and the like. The experiments touch on most topics covered in such courses in most curricula.
+	  </p>
 	</div>
 	
       </section>
@@ -284,7 +196,7 @@ that quantify the strengths of these atomic interactions.
         <!-- The heading for the section can be enclosed in a 
         div tag and shown with a <h2> tag -->
 	<div id="lab-article-section-5-heading" class="heading">
-	 Pre-requisite 
+	 Pre-requisite Softwares
 	</div>
 				
 	<!-- Write the section content inside a paragraph 
@@ -297,22 +209,6 @@ that quantify the strengths of these atomic interactions.
 		<li>Adobe Flash (formerly Macromedia Flash) is a multimedia platform used to add animation, video, and interactivity to web pages. </li>
 	   </ul>
 	  </p>
-	</div>
-	
-	<section id="lab-article-section-6">
-        
-        <div id="lab-article-section-6-icon" class="icon">
-          <!-- Change here -->
-	  <img src="images/procedure5.jpg" />
-	</div>
-	<div id="lab-article-section-6-heading" class="heading">
-	 FeedBack
-	</div>
-				
-	<!-- Write the section content inside a paragraph 
-        element, You can also include images with <img> tag -->
-        <div id="lab-article-section-6-content" class="content">
-	  <a href="http://virtual-labs.ac.in/feedback/">Click Here</a>
 	</div>
 	
       </section>
