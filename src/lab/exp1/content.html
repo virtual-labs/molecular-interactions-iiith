@@ -28,7 +28,7 @@ edit -->
       <!-- Write the name of your lab and link it to the home 
       page of your lab (h1 tag is preferred while writing your 
       lab name)-->
-      <a href="../index.html">Physics Lab</a>	
+      <a href="../index.html">Molecular Interaction</a>	
     </div>
 
     <!-- Add any additional element you want to add to the lab 
@@ -51,7 +51,7 @@ edit -->
       <header id="experiment-article-heading" class="heading">
         <!-- You can add a welcome message or title of the 
         experiment here -->
-        Simple Pendulum
+        Internuclear forces in a diatomic molecule
         <!-- Add any additional element if required with proper 
         enclosing-->
       </header>
@@ -91,29 +91,28 @@ edit -->
           element, You can also include images with <img> tag -->
           <div id="experiment-article-section-1-content" 
           class="content">	
-            <p>
-            In this module, basic concepts of simple oscillator 
-            are explained. Initially, an example of simple 
-            pendulum is taken and the basic terminology i.e., 
-            what is <span class="term">initial displacement</span>, <span class="term">
-            initial velocity</span>,<span class="term">natural frequency
-            </span> and <span class="term">time period</span> are explained. 
-            Each of these terms is illustrated by giving an 
-            example, where user can enter his value and observe 
-            the behavior of structure for his input.
-            </p>
+            <p align="justify">
+The internuclear potential for a diatomic molecule is illustrated by a solid line in the following figure. The curve rises steeply to the left of the minimum, indicating the difficulty in pushing the two nuclei closer together. The curve to the right side of the equilibrium position rises initially but eventually levels off. The potential energy at large seperations is essentially the bond energy. The dashed line shows the potential<br> 
+    <p align="center">                         U(x) = 0.5 K ( x - x<sub>0</sub> )<sup>2</sup> <br>
 
-            <p>
-            Simple harmonic oscillator consists of a <span class="term"> 
-            mass (m) </span> hanging from a string of <span class="term">
-            length (l)</span>, fixed at a pivot point P. 
-            When the mass is displaced from its <span class="term"> mean 
-            position </span> by giving some initial displacement 
-            (angle), oscillator starts swinging back and fourth 
-            with <span class="term">periodic motion</span>.
-            </p>
+<p align="justify">
+here, x<sub>0</sub> is the equilibrium bond length associated with Hooke's law. Here, K is the spring constant, which gives a quantitative measure of the curvature of the potential energy surface.
+Although the harmonic-oscillator potential may appear to be a terrible approximation on the experimental curve, it is a good approximation in the region of the minimum.
+</p>
+<div style="text-align: center"><img src="images/morse_1.jpg"/> </div> <br />
+</p>
+ <p align="justify">
+An analytic expression that is a good approximation to an internuclear potential energy curve is a Morse potential
+</p>
+<p>
+<p align="center"> U(x) = D (1 - e<sup>-b ( x - x<sub>0</sub>) </sup>)<sup>2</sup>
+</p>
+<p>
+where D and b are the parameters that depend upon the molecule. The parameter D is the dissociation energy of the molecule measured from the minimum of U(x) and b is a measure of the curvature of U(x) at its minimum.
+</p>
+<p align="justify">
+In this experiment, one of the atoms in a diatomic molecule is optically trapped at a fixed position. The other atom is pulled away from this fixed atom using optical forces. The potential energies and corresponding internuclear forces are measured as a function of internuclear separation. 
 
-          <img src="../images/Pendulum.JPG" alt="pendulum">
         </div>
 
 
@@ -140,31 +139,23 @@ edit -->
         element, we can also include images with <img> tag -->
         <div id="experiment-article-section-2-content" 
         class="content">
-          <p>
-          There are two solutions to \(ax^2 + bx + c = 0\) and 
-          they are $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$ 
-          </p>
-          <p>
-          By applying <span class="term">Newton's second law</span> for 
-          rotational systems, the equation of motion for the 
-          pendulum may be obtained.
-          </p> 
+         <p>	
+The experimental internuclear potential energy curve is approximated using a Morse potential and it is defined as follows:
+</p>
+<p>
+<p align="center"> U(x) = D ( 1 - e<sup>-b(x - x<sub>0</sub> )</sup>)<sup>2</sup>
+</p>
+<p align="justify">
+The internuclear forces can be determined by calculating the negative gradient of U(x) with respect to the atomic coordinates of the second atom, whose position is controlled using the optical tweezer.
+</p>
+<p align="justify">
+For small displacements away from the equilibrium bond length, the magnitude of the internuclear force can be approximately written as 
+</p>
+<p>
+<p align="center"> F (x) = - K( x - x<sub>0</sub> )
 
-          <p>
-          Here \(\tau\)  =  <span class="term">Torque </span>;   I  =  
-          <span class="term">Moment of Inertia</span>;
-          &alpha; = <span class="term"> Angular
-          Velocity</span>. m is mass of the oscillator, l is
-          the length of the oscillator and \(\theta\) is initial
-          displacement. 
-          </p>
-          
-          <p>							
-          If the amplitude of the angular displacement is 
-          small then we can use the approximation 
-          $$ sin \theta \approx \theta $$
+</p>
 
-          </p>
 
         </div>
       </section>
@@ -186,15 +177,8 @@ edit -->
         <div id="experiment-article-section-3-content" 
         class="content">
           <p>
-            Objective of simple harmonic oscillator experiment 
-            is to understand the concept of <span class="term">time period 
-            </span>(natural frequency) in <span class="term"> harmonic 
-            oscillations </span>.
+           To determine the nature of internuclear forces between the nuclei of a diatomic molecule using optical tweezer experiments.
           </p> 
-       
-          <img  src="http://cite.iiit.ac.in/vlab/cITe/images/eerc/Expr1/simple-pendulum.JPG" 
-          alt="simple pendulum" />
-
         </div>
 
       </section>
@@ -216,10 +200,8 @@ edit -->
         <div id="experiment-article-section-4-content" 
         class="content">
           <p>
-	        Place or link to your experiment java applet 
-	        or flash file here. 
-	        
-            
+	         <a href="http://pascal.iiit.ac.in/ccnsb/sm/vpl/bin/magnet.html">optical tweezer</a><br>
+                <a href="http://pascal.iiit.ac.in/ccnsb/sm/latest_project/bin/magnet.html">magnetic_tweezer</a>
           </p>
         </div>
 
@@ -240,40 +222,33 @@ edit -->
 
         <div id="experiment-article-section-5-content" 
         class="content">
-          <p> 
-            Start the experiment with the default values of 
-            length, mass and intial displacement (in angle). 
-            Pause the experiment after few cycles and note 
-            the observation.
-          </p> 
-
-        <h3>Observation 1:</h3> 
-          <ol> 
-            
-            <li>
-              Find the time period of the pendulum by noting the 
-              time interval of any one complete cycle from the 
-              response graph. 
-            </li> 
-
-            <li>
-              You may note that this time period value is same 
-              for any complete cycle.
-              <a  class="more" href="cITe/Documents/eerc/
-              pdf/1.manual.pdf">Read More</a>  
-            </li> 
-
-          </ol>
-
-          <a onclick="window.open('http://cite.iiit.ac.in/vlab/cITe/media/eerc/Expr1/shm.htm', 
-          null,'scrollbars=yes, width=' + (screen.availWidth) 
-          +',height=' + (screen.availHeight)); return false;"
-
-          href="http://cite.iiit.ac.in/vlab/cITe/media/eerc/Expr1/shm.htm">		   
-          <img src="http://cite.iiit.ac.in/vlab/cITe/images/demo.JPG" 
-          alt="" width="400" height="200"></a>
-
-          </div>
+       <p> 
+The initial display shows the experimental set up for a default diatomic molecule. To perform this experiment on a molecule of your
+choice, there are certain parameters to be initialized and the procedure detailed here can be followed.
+</p>
+<p>Step 1 : Select the suitable element on which experiment is to be performed.
+<div style="text-align: center"><img src= "images/suitableatom.png" align=center height="500" width="800"/></div>
+</p>
+<p>
+Step2:The size of atoms can be varied using the sliders shown below.
+<div style="text-align: center"><img src= "images/size.png" align=center height="500" width="800"/></div>
+</P>
+<p>
+Step3:Select a suitable value of the spring constant  using the sliders provided on the display menu and start the experiment..
+<div style="text-align: center"><img src= "images/start-k.png" align=center height="500" width="800"/></div>
+</p>
+</p>
+<p>
+Step 4:The internuclear force and the potential energy are plotted as a function of the internuclear seperation.
+<div style="text-align: center"><img src= "images/force.png" align=center height="500" width="800"/></div>
+</p>
+<p>
+Step 5: The experiment can be reintialized by using the 'Reset' rado in display menu.
+<div style="text-align: center"><img src= "images/reset.png" align=center height="500" width="800"/></div>
+</p>
+Step6: The experiment can be terminated by using 'Stop' in the display menu.
+<div style="text-align: center"><img src= "images/stop.png" align=center height="500" width="800"/></div>
+</div>
 
         </section>
 
@@ -294,76 +269,13 @@ edit -->
           class="content">
             
             <p>
-              
-              <b>Q1.</b> 
-              Time taken for one complete oscillation 
-              is called Time Period of the oscillator. <br> 
-              <input type="radio" name="q1" id="q1" value="1"> 
-                <font color="green"> True </font> <br> 
-              <input type="radio" name="q1" id="q1" value="0">
-                <font color="red"> False </font> <br/><br/> 
-              
-              <b>Q2.</b> 
-              Time period of the oscillator is constant for 
-              given values of mass, length and initial 
-              conditions.<br> 
-              <input type="radio" name="q2" id="q2" value="1"> 
-                <font color="green"> True </font> <br> 
-              <input type="radio" name="q2" id="q2"value="0">
-                <font color="red"> False </font> <br/><br/> 
-              
-              <b>Q3.</b> 
-              Value of Time period depends on initial 
-              conditions. <br> 
-              <input type="radio" name="q3" id="q3" value="1"> 
-                <font color="green"> True </font> <br> 
-              <input type="radio" name="q3" id="q3"value="0">
-                <font color="red"> False </font> <br/><br/> 
-              
-              <b>Q4.</b> 
-              Value of time period depends on mass. <br> 
-              <input type="radio" name="q4" id="q4" value="1"> 
-                <font color="green"> True </font> <br> 
-              <input type="radio" name="q4" id="q4" value="0">
-                <font color="red"> False </font> <br/><br/> 
-              
-              <b>Q5.</b> 
-              Value of time period depends on length of the 
-              oscillator. <br> 
-              <input type="radio" name="q5" id="q5" value="1"> 
-                <font color="green"> True </font> <br> 
-              <input type="radio" name="q5" id="q5"value="0">
-                <font color="red"> False </font> <br/><br/> 
-              <input type="submit" value="Submit Answers" 
-                class="button" />
+           <a href="./quiz.php">Click Here</a>   
+             
             </p>
 
           </div>
 
-        </section>
-
-        <section id="experiment-article-section-7">
-	  
-          <div id="experiment-article-section-7-icon" 
-          class="icon">
-	    <!-- Enclose the icon image of your lab. -->
-	    <img src="../images/procedure.jpg" />
-	  </div>
-	
-          <div id="experiment-article-section-7-heading" 
-          class="heading">
-	    Procedure
-	  </div>
-	
-          <div id="experiment-article-section-7-content" 
-          class="content">
-	    <p>
-	      Procedure for the experiment is as follows.
-	    </p>
-	  </div>
-	
-        </section>
-			
+        </section>	
 		
         <section id="experiment-article-section-8">
    
@@ -380,23 +292,26 @@ edit -->
 
           <div id="experiment-article-section-8-content" 
           class="content">
-            <ul>	
-              <li>
-                <a href="http://en.wikipedia.org/wiki/
-                Simple_harmonic_motion">http://en.wikipedia.org/wiki/Simple_harmonic_motion</a>
-              </li>
-              <li>
-                <a href="http://www.physics.uoguelph.ca/
-                tutorials/shm/Q.shm.html">http://www.physics.uoguelph.ca/tutorials/shm/Q.shm.html</a>
-              </li> 
-              <li>
-                Dynamics of structures by Anil K chopra. 
-              </li> 
-              <li>
-                <a href="http://surendranath.tripod.com/Applets/
-                Oscillations/SHM/SHMApplet.html">http://surendranath.tripod.com/Applets/Oscillations/SHM/SHMApplet.html</a> 
-              </li>
-            </ul>
+           <ol>	
+		<li>
+ <li>Essentials of Computational Chemistry by Christopher J.Cramer</li>
+ <li>Physical Chemistry by Atkins </li>
+ <li>Dynamics of structures by Anil K chopra. </li>
+ <li>Molecular Modelling : Principles and Applications by Andrew Leach.</li>
+ <li>Optical Tweezers: Measuring Piconewton Forces Mark C. Williams Northeastern University.</li>
+ <li>Jurij Kotar  “Optical Tweezers” ,University of Cambridge, Cavendish Laboratory, Biological and Soft Systems.</li>
+ <li>http://www.stanford.edu/group/blocklab/Optical%20Tweezers%20Introduction.htm </li>
+		<a href="http://en.wikipedia.org/wiki/Simple_harmonic_motion">http://en.wikipedia.org/wiki/Simple_harmonic_motion</a>
+		</li>
+		<li>
+		<a href="http://www.physics.uoguelph.ca/tutorials/shm/Q.shm.html">http://www.physics.uoguelph.ca/tutorials/shm/Q.shm.html</a>
+		</li>  
+ 		<li>
+		<a href="http://surendranath.tripod.com/Applets/Oscillations/SHM/SHMApplet.html">
+		http://surendranath.tripod.com/Applets/Oscillations/SHM/SHMApplet.html
+		</a> 
+		</li>
+	</ol>
           </div>
 
         </section>
