@@ -1,12 +1,96 @@
-<!DOCTYPE html>
-<head></head>
-<h1 id="main-title">
-Van der Waals Forces Between Molecules.
-</h1>
+<!-- This file needs to be edited by the lab developer to suit
+the requirements of their lab in particular.-->
 
-<div id="introduction">
-	<h2>Introduction </h2>
-	<p align="justify">
+<!-- Add class="default" to include any element as it is
+specified in default.html. 
+Do not include class="default" to the elements that you want to
+edit -->
+
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+
+<div id="experiment"> <!-- The Experiment Document Container-->
+
+  <!-- The lab Header contains the logo and the name of the lab,
+  usually displayed on the top of the page-->
+
+  <header id="experiment-header" class="default">
+  
+    <div id="experiment-header-logo" class="logo">
+      <!-- Enclose the logo image of your lab or write it in 
+      text-->
+      <img src="../images/logo.jpg" />
+    </div>
+
+    <div id="experiment-header-heading" class="heading">
+      <!-- Write the name of your lab and link it to the home 
+      page of your lab (h1 tag is preferred while writing your 
+      lab name)-->
+      <a href="../index.html">Molecular Interactions</a>	
+    </div>
+
+    <!-- Add any additional element you want to add to the lab 
+    header, For example : Help (Enclosing them with suitable 
+    div is recommended)-->
+
+  </header>
+
+
+  <!-- The lab article is the main content area where all the 
+  experiment content sits-->
+  <article id="experiment-article">
+  
+    <!-- The lab article has an header, optional navigational 
+    menu, number of sections, an optional sidebar and a closing 
+    footer-->
+     <div id="experiment-article-breadcrumb" class="breadcrumb">
+     </div>
+    
+      <header id="experiment-article-heading" class="heading">
+        <!-- You can add a welcome message or title of the 
+        experiment here -->van der Waals forces between molecules
+        <!-- Add any additional element if required with proper 
+        enclosing-->
+      </header>
+
+      <!-- Navigation menu is useful to organize the view of 
+      multiple sections inside the article-->
+      <nav id="experiment-article-navigation" class="default">
+        <ul id="experiment-article-navigation-menu">
+          <!-- The menu can be dynamically generated to contain 
+          the headings of your sections or instead write the 
+          menu items of your choice individually enclosedu in 
+          <li> tag as shown below-->
+        </ul>
+      </nav>
+
+      <!-- All the sections of your lab or experiment can be 
+      enclosed together with a div element as shown below-->
+      <div id="experiment-article-sections">
+
+        <!-- First section of the article-->
+        <section id="experiment-article-section-1">
+          
+          <div id="experiment-article-section-1-icon" 
+          class="icon">
+	    <!-- Enclose the icon image of your lab -->
+	    <img src="../images/introduction.jpg" />
+	  </div>	
+          
+          <!-- The heading for the section can be enclosed in a 
+          div tag. -->
+          <div id="experiment-article-section-1-heading" 
+          class="heading">
+            Introduction
+          </div>
+
+          <!-- Write the section content inside a paragraph 
+          element, You can also include images with <img> tag -->
+          <div id="experiment-article-section-1-content" 
+          class="content">	
+           <p align="justify">
 Van der Waals forces include attractions between atoms, molecules, and surfaces, as well as other intermolecular forces.
  They differ from covalent and ionic bonding in that they are caused by correlations in the fluctuating polarizations of nearby particles.<br>
 
@@ -14,10 +98,33 @@ Van der Waals forces include attractions between atoms, molecules, and surfaces,
 The Lennard-Jones potential is often used as an approximate model for the isotropic part of a total (repulsion plus attraction) van der Waals force as a function of distance.The Lennard-Jones potential  is a mathematically simple model that approximates the interaction between a pair of neutral atoms or molecules.
  A form of the potential was first proposed in 1924 by<b> John Lennard-Jones</b>.<br>
 </p>
-</div>
-<div id="theory">
-	<h2>Theory</h2> 
-	<p align="justify">	
+        </div>
+
+
+      </section>
+
+      <!-- Second section of the article-->
+      <section id="experiment-article-section-2">
+        
+        <div id="experiment-article-section-2-icon" 
+        class="icon">
+	  <!-- Enclose the icon image of your lab. -->
+	  <img src="../images/theory.jpg" />
+	</div>
+				
+        <!-- The heading for the section can be enclosed in a 
+        div tag. -->
+        <div id="experiment-article-section-2-heading" 
+        class="heading">
+          Theory
+        </div>
+
+
+        <!-- Write the section content inside a paragraph 
+        element, we can also include images with <img> tag -->
+        <div id="experiment-article-section-2-content" 
+        class="content">
+         <p align="justify">	
 The Lennard--Jones potential is an effective potential that describes the interaction between two uncharged molecules or atoms. The Lennard--Jones potential is mildly attractive as two uncharged molecules or atoms approach one another from a distance, 
 but strongly repulsive when they approach too close. The resulting potential is shown in figure  below, at equilibrium the pair of atoms or molecules tend to go toward a separation corresponding to the minimum of the Lennard--Jones potential. </p>
 
@@ -63,26 +170,72 @@ The potential resulting from these attractive and repulsive interactions is call
 <p align="justify">Van der Waals surface area , also van der Waals surface or van der Waals envelope  is the imaginary surface of the union of spherical atom surfaces defined by ,
  the so-called van der Waals radius of each atom in the molecule representation. The van der Waals surface enclosed volume reference is molecular volume.
 Both van der Waals surface and molecular volume are abstract representation of molecules, rather than "real" surfaces and volumes of molecules.</P>
-</div>
-
-<div id="objective">
-	<h2> Objective </h2> 
-	<p align="justify">
-To study Van der Waals interactions between molecules.
-</div>
-
-<div id="simulation">
-	<h2> Simulation </h2>
-<li>
-                <a href="../suraj/Suraj/bin/Hexane_Vanderwall.html">click here</a>
-                </li>
-
-</div>
+        </div>
+      </section>
 
 
-<div id="manual">
-	<h2> Manual </h2> 
- 	<p> 
+      <section id="experiment-article-section-3">
+        
+        <div id="experiment-article-section-3-icon" 
+        class="icon">
+	  <!-- Enclose the icon image of your lab. -->
+	  <img src="../images/objective.jpg" />
+	</div>
+     
+        <div id="experiment-article-section-3-heading" 
+        class="heading">
+          Objective
+        </div>
+
+        <div id="experiment-article-section-3-content" 
+        class="content">
+          <p>
+            To study Van der Waals interactions between molecules.
+          </p> 
+
+        </div>
+
+      </section>
+
+
+      <section id="experiment-article-section-4">
+
+        <div id="experiment-article-section-4-icon" 
+        class="icon">
+	  <!-- Enclose the icon image of your lab.-->
+	  <img src="../images/simulation.jpg" />
+	</div>
+
+        <div id="experiment-article-section-4-heading" 
+        class="heading">
+          Experiment
+        </div>
+
+        <div id="experiment-article-section-4-content" 
+        class="content">
+          <p> 
+          <a href="../suraj/Suraj/bin/Hexane_Vanderwall.html">click here</a>  
+          </p>
+        </div>
+
+      </section>
+
+      <section id="experiment-article-section-5">
+   
+        <div id="experiment-article-section-5-icon" 
+        class="icon">
+	  <!-- Enclose the icon image of your lab.-->
+	  <img src="../images/manual.jpg" />
+	</div>
+
+        <div id="experiment-article-section-5-heading" 
+        class="heading">
+          Manual
+        </div>
+
+        <div id="experiment-article-section-5-content" 
+        class="content">
+          <p> 
 There are certain parameters to be initialized and the procedure detailed here can be followed.
 <!--<img src= "images/startdiatomic.png"  width= "300" height= "400"-->
 </p>
@@ -98,26 +251,73 @@ Step2: Click 'Start' to start the experiment.
 Step 3: The coordinates of molecule can be varied by varying the sliders,a plot of energy,force by varying positions  is seen. 
 <img  src= "images/Screenshot-2.png" width= "300" height= "400"
 </p>
-<!--<p>
- Step 4: The magnet position can be varied by x&y  the coordinates of magnet,using the slider provided.
-<img src= "images/coor.png"  width= "300" height= "400"
-<p> 
-Step 5: The internuclear force and the potential energy are plotted as a function of the internuclear seperation and to "stop" the experiment,use stop tab.
-<img src= "images/energy.png" width= "300" height= "400"-->
- 
-</p>
-</div>
 
-<div id="quizzes">
-	<h2>Quiz</h2> 
-	<p>
-	<a href="./quiz.php">Click Here</a>
-	</p> 
-</div>
+          </div>
 
-<div id="readings"> 
-	<h2> Further-Readings </h2> 
-	<ol>	
+        </section>
+
+        <section id="experiment-article-section-6">
+      
+          <div id="experiment-article-section-6-icon" 
+          class="icon">
+	    <!-- Enclose the icon image of your lab.-->
+	    <img src="../images/quizzes.jpg" />
+	  </div>
+
+          <div id="experiment-article-section-6-heading" 
+          class="heading">
+            Quizzes
+          </div>
+
+          <div id="experiment-article-section-6-content" 
+          class="content">
+            <p>
+           <a href="./quiz.php">Click Here</a>
+            </p>
+
+          </div>
+
+        </section>
+
+        <section id="experiment-article-section-7">
+	  
+          <div id="experiment-article-section-7-icon" 
+          class="icon">
+	    <!-- Enclose the icon image of your lab. -->
+	    <img src="../images/procedure.jpg" />
+	  </div>
+	
+          <div id="experiment-article-section-7-heading" 
+          class="heading">
+	    Procedure
+	  </div>
+	
+          <div id="experiment-article-section-7-content" 
+          class="content">
+	    <p>
+	      Procedure for the experiment is as follows.
+	    </p>
+	  </div>
+	
+        </section>
+			
+		
+        <section id="experiment-article-section-8">
+   
+          <div id="experiment-article-section-8-icon" 
+          class="icon">
+	    <!-- Enclose the icon image of your lab.-->
+	    <img src="../images/readings.jpg" />
+	  </div>
+
+          <div id="experiment-article-section-8-heading" 
+          class="heading">
+            Further Readings
+          </div>
+
+          <div id="experiment-article-section-8-content" 
+          class="content">
+           <ol>	
 		<li>
 1) P.W Atkins "Physical chemistry"</li>
 <li>2) Intermolecular forces by Jacob N.Israelachvili</li>
@@ -135,5 +335,38 @@ Step 5: The internuclear force and the potential energy are plotted as a functio
 		</a> 
 		</li>
 	</ol>
-</div>
+          </div>
 
+        </section>
+
+      </div>
+
+
+    <!-- An article can have a sidebar that contain related 
+    links and additional material (however it is kept optional 
+    at this moment) -->
+    <aside id="lab-article-sidebar" class="default">
+      <!-- put the content that you want to appear in the 
+      sidebar -->	
+    </aside>
+
+
+    <!-- Article footer can display related content and 
+    additional links -->						
+    <footer id="lab-article-footer" class="default">
+      <!-- Put the content that you want to appear here -->
+    </footer>
+
+  </article>
+
+
+  <!-- Links to other labs, about us page can be kept the lab 
+  footer-->
+  <footer id="lab-footer" class="default">
+    <!-- Put the content here-->
+  </footer>
+
+</div>		
+
+</body>
+</html>
