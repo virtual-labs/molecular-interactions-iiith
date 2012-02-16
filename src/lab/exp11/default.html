@@ -1,10 +1,6 @@
-<!-- This file needs to be edited by the lab developer to suit
-the requirements of their lab in particular.-->
-
-<!-- Add class="default" to include any element as it is
-specified in default.html. 
-Do not include class="default" to the elements that you want to
-edit -->
+<!-- This file default.html has got the default structure of the
+html pages for an experiment. In case we intend to edit it, we
+should edt the content.html file to suit our requirements. -->
 
 <!DOCTYPE html>
 <html>
@@ -16,7 +12,7 @@ edit -->
   <!-- The lab Header contains the logo and the name of the lab,
   usually displayed on the top of the page-->
 
-  <header id="experiment-header" class="default">
+  <header id="experiment-header" >
   
     <div id="experiment-header-logo" class="logo">
       <!-- Enclose the logo image of your lab or write it in 
@@ -28,7 +24,7 @@ edit -->
       <!-- Write the name of your lab and link it to the home 
       page of your lab (h1 tag is preferred while writing your 
       lab name)-->
-      <a href="../index.html">Molecular Interactions</a>	
+      <a href="../index.html">My Lab</a>	
     </div>
 
     <!-- Add any additional element you want to add to the lab 
@@ -45,20 +41,18 @@ edit -->
     <!-- The lab article has an header, optional navigational 
     menu, number of sections, an optional sidebar and a closing 
     footer-->
-     <div id="experiment-article-breadcrumb" class="breadcrumb">
-     </div>
     
       <header id="experiment-article-heading" class="heading">
         <!-- You can add a welcome message or title of the 
         experiment here -->
-        Radiation forces on a dielectric particle
+        Simple Pendulum
         <!-- Add any additional element if required with proper 
         enclosing-->
       </header>
 
       <!-- Navigation menu is useful to organize the view of 
       multiple sections inside the article-->
-      <nav id="experiment-article-navigation" class="default">
+      <nav id="experiment-article-navigation" >
         <ul id="experiment-article-navigation-menu">
           <!-- The menu can be dynamically generated to contain 
           the headings of your sections or instead write the 
@@ -91,12 +85,29 @@ edit -->
           element, You can also include images with <img> tag -->
           <div id="experiment-article-section-1-content" 
           class="content">	
-            <p align="justify">
-Light is an electromagetic wave. It consists of oscillating electric and magnetic fields that are perpendicular to each other. Since the constituents of matter (electrons and nuclei) can respond to the electric and magnetic fields, light can exert forces on small objects. The forces exerted by light on matter are called the raditation forces. Under suitable conditions, these raditation forces can be used to trap micron-sized objects, such as latex beads. The priciple of localization of tiny objects in space using light is called "optical trapping" and it has found many applications in chemistry, physics and biology. This technique is most prominently used in biophysics to manipulate single biomolecules. The "optical trapping" is also used by atomic physicists to trap individual molecules and atoms. 
-<br/>
-<br>
-In this experiment, we will learn how the radiation forces are used to trap tiny objects.
-</p>
+            <p>
+            In this module, basic concepts of simple oscillator 
+            are explained. Initially, an example of simple 
+            pendulum is taken and the basic terminology i.e., 
+            what is <span>initial displacement</span>, <span>
+            initial velocity</span>,<span>natural frequency
+            </span> and <span>time period</span> are explained. 
+            Each of these terms is illustrated by giving an 
+            example, where user can enter his value and observe 
+            the behavior of structure for his input.
+            </p>
+
+            <p>
+            Simple harmonic oscillator consists of a <span> 
+            mass (m) </span> hanging from a string of <span>
+            length (l)</span>, fixed at a pivot point P. 
+            When the mass is displaced from its <span> mean 
+            position </span> by giving some initial displacement 
+            (angle), oscillator starts swinging back and fourth 
+            with <span>periodic motion</span>.
+            </p>
+
+          <img src="../images/Pendulum.JPG" alt="pendulum">
         </div>
 
 
@@ -123,21 +134,44 @@ In this experiment, we will learn how the radiation forces are used to trap tiny
         element, we can also include images with <img> tag -->
         <div id="experiment-article-section-2-content" 
         class="content">
-         <p align="justify">	
-The narrowest point of the focused beam, known as the beam waist, contains a very strong electric field gradient. It turns out that dielectric particles are attracted along the gradient to the region of strongest electric field, which is the center of the beam. The laser light also tends to apply a force on particles in the beam along the direction of beam propagation. It is easy to understand why if one considers light to be a group of particles, each impinging on the tiny dielectric particle in its path. This is known as the scattering force and results in the particle being displaced slightly downstream from the exact position of the beam waist. Most optical traps operate with a Gaussian beam (TEM00 mode) profile intensity.  In this case, if the particle is displaced from the center of the beam, it would experience a net force towards the center of the trap. This is because of the fact that more intense beams impart a larger momentum change towards the 
- center of the trap than less intense beams, which impart a smaller momentum change away from the trap center. The net momentum change, or force, returns the particle to the trap center. For a Gaussian beam, the complex electric field amplitude is given by</P>
- <p>
- <p><b>E(r,z)=E<sub>0</sub> &#969<sub>0</sub>/&#969(z) * exp(r<sup>2</sup>/&#969<sup>2</sup>(z)) *exp(-ikz-ikR<sup>2</sup>/2R(z)+i&#962(z))</b></p>
-<br>r=is the radial distance from the center axis of the beam</br>
-<br>z = the axial distance from the beam's narrowest point (the "waist")</br>
-<br>k=2&#960/&#955 is the wave number</br>
-<br>E<sub>0</sub>=|E(0,0)|</br>
-<br>&#969(z) is the radius at which the field amplitude and intensity drop to 1/e and 1/e2 of their axial values</br>
-<br>&#969=&#969<sub>0</sub> is the waist size</br>
-<br>R(z) = the radius of curvature of the beam's wavefronts</br>
-<br>&#962(z) = Gouy phase shift</br>
-<p> &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;<img src= "images/gaussian.jpg" align= "center"></p>
+          <p>
+          There are two solutions to \(ax^2 + bx + c = 0\) and 
+          they are $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
+          By applying <span>Newton's second law</span> for 
+          rotational systems, the equation of motion for the 
+          pendulum may be obtained.
+          </p> 
 
+          <p>
+          Where,  &tau;  =  <span>Torque </span>;   I  =  
+          <span>Moment of Inertia</span>;   &alpha;  = <span>
+          Angular Velocity</span>. m is mass of the 
+          oscillator, l is the length of the <a class="more" 
+          href=""> oscillator </a> and theta is initial 
+          displacement. The above equation can be rearranged as 
+          </p>
+          
+          <p>							
+          If the amplitude of 
+          <a class="more" href="">angular displacement</a> is 
+          small then we can use the approximation 
+          (sin&theta; &asymp; &theta;).
+          By considering the above approximation, the equation 
+          of motion reduces to :
+          </p>
+
+          <p>
+          The solution for equation of <a class="more" 
+          href="">simple harmonic oscillator </a> is 				  		
+          </p> 
+
+          <p>							
+          where, &theta;(t) is the history of oscillation, 
+          &theta;<sub>0</sub> is the initial angle, 
+          &omega=(g/l)<sup>1/2</sup> is the 
+          <a class="more" href=""> natural frequency </a> of 
+          the motion.
+          </p>
         </div>
       </section>
 
@@ -158,12 +192,16 @@ The narrowest point of the focused beam, known as the beam waist, contains a ver
         <div id="experiment-article-section-3-content" 
         class="content">
           <p>
-            To examine the force acting on the bead trapped by a laser, and to examine the most stable point on the electromagnetic field.
+            Objective of simple harmonic oscillator experiment 
+            is to understand the concept of <span>time period 
+            </span>(natural frequency) in <span> harmonic 
+            oscillations </span>.
           </p> 
-       
-          <img  src="http://cite.iiit.ac.in/vlab/cITe/images/eerc/Expr1/simple-pendulum.JPG" 
+          <!--      
+          <img  src="http://cite.iiit.ac.in/vlab/cITe/
+          images/eerc/Expr1/simple-pendulum.JPG" 
           alt="simple pendulum" />
-
+          -->
         </div>
 
       </section>
@@ -185,8 +223,7 @@ The narrowest point of the focused beam, known as the beam waist, contains a ver
         <div id="experiment-article-section-4-content" 
         class="content">
           <p>
-	       <a href="../suraj/Suraj/bin/Laser.html">click here</a>
-            
+            <embed src="PendulumForces.swf" /> 
           </p>
         </div>
 
@@ -208,29 +245,11 @@ The narrowest point of the focused beam, known as the beam waist, contains a ver
         <div id="experiment-article-section-5-content" 
         class="content">
           <p> 
-To perform this experiment there are certain parameters to be initialized and the procedure detailed here can be followed.
-<img src= "images/startdiatomic.png"  width= "300" height= "400"
-</p>
-<p>
-STEP1:Click on start to start the experiment
-<img src= "images/Screenshot.png"  width= "300" height= "400"
-</p>
-<p>
-Step2: Select a suitable value of the spring constant  using the sliders provided on the display menu.
-<img src= "images/Screenshot-1.png" width= "300" height= "400"
-</p>
-<p>
-Step 3: Change the position of the bead by varying the x,y,z coordinates using the sliders provided.A plot of force as function of distance is seen on right side.
-<img  src= "images/Screenshot-2.png" width= "300" height= "400"
-</p>
-<p>
- <!--Step 4: The magnet position can be varied by x&y  the coordinates of magnet,using the slider provided.-->
-<!--<img src= "images/coor.png"  width= "300" height= "400"-->
-<p> 
-<!--Step 5: The internuclear force and the potential energy are plotted as a function of the internuclear seperation and to "stop" the experiment,use stop tab.
-<img src= "images/energy.png" width= "300" height= "400" -->
- 
-</p>
+            Start the experiment with the default values of 
+            length, mass and intial displacement (in angle). 
+            Pause the experiment after few cycles and note 
+            the observation.
+          </p> 
 
         <h3>Observation 1:</h3> 
           <ol> 
@@ -249,15 +268,15 @@ Step 3: Change the position of the bead by varying the x,y,z coordinates using t
             </li> 
 
           </ol>
-
+          <!--
           <a onclick="window.open('http://cite.iiit.ac.in/vlab/cITe/media/eerc/Expr1/shm.htm', 
           null,'scrollbars=yes, width=' + (screen.availWidth) 
           +',height=' + (screen.availHeight)); return false;"
 
-          href="http://cite.iiit.ac.in/vlab/cITe/media/eerc/Expr1/shm.htm">		   
+          href="http://cite.iiit.ac.in/vlab/cITe/media/eerc/Expr1/shm.htm">
           <img src="http://cite.iiit.ac.in/vlab/cITe/images/demo.JPG" 
           alt="" width="400" height="200"></a>
-
+          -->
           </div>
 
         </section>
@@ -280,7 +299,47 @@ Step 3: Change the position of the bead by varying the x,y,z coordinates using t
             
             <p>
               
-            <a href="./quiz.php">Click Here</a
+              <b>Q1.</b> 
+              Time taken for one complete oscillation 
+              is called Time Period of the oscillator. <br> 
+              <input type="radio" name="q1" id="q1" value="1"> 
+                <font color="green"> True </font> <br> 
+              <input type="radio" name="q1" id="q1" value="0">
+                <font color="red"> False </font> <br/><br/> 
+              
+              <b>Q2.</b> 
+              Time period of the oscillator is constant for 
+              given values of mass, length and initial 
+              conditions.<br> 
+              <input type="radio" name="q2" id="q2" value="1"> 
+                <font color="green"> True </font> <br> 
+              <input type="radio" name="q2" id="q2"value="0">
+                <font color="red"> False </font> <br/><br/> 
+              
+              <b>Q3.</b> 
+              Value of Time period depends on initial 
+              conditions. <br> 
+              <input type="radio" name="q3" id="q3" value="1"> 
+                <font color="green"> True </font> <br> 
+              <input type="radio" name="q3" id="q3"value="0">
+                <font color="red"> False </font> <br/><br/> 
+              
+              <b>Q4.</b> 
+              Value of time period depends on mass. <br> 
+              <input type="radio" name="q4" id="q4" value="1"> 
+                <font color="green"> True </font> <br> 
+              <input type="radio" name="q4" id="q4" value="0">
+                <font color="red"> False </font> <br/><br/> 
+              
+              <b>Q5.</b> 
+              Value of time period depends on length of the 
+              oscillator. <br> 
+              <input type="radio" name="q5" id="q5" value="1"> 
+                <font color="green"> True </font> <br> 
+              <input type="radio" name="q5" id="q5"value="0">
+                <font color="red"> False </font> <br/><br/> 
+              <input type="submit" value="Submit Answers" 
+                class="button" />
             </p>
 
           </div>
@@ -303,7 +362,7 @@ Step 3: Change the position of the bead by varying the x,y,z coordinates using t
           <div id="experiment-article-section-7-content" 
           class="content">
 	    <p>
-	      Procedure for the experiment is as follows.
+	      Procedure for the experiment is as follows
 	    </p>
 	  </div>
 	
@@ -325,26 +384,23 @@ Step 3: Change the position of the bead by varying the x,y,z coordinates using t
 
           <div id="experiment-article-section-8-content" 
           class="content">
-            ol>	
-		<li>
-1)Arthur Ashkin. Optical trapping and manipulation of neutral particles using lasers. Proc.
-Natl. Acad. Sci. Vol 94 pp. 4853-4860. (1997).</li>
-<li>Stephen P. Smith, Sameer R. Bhalotra, et al. Inexpensive optical tweezers for
-undergraduate laboratories. Am. J. Phys. 67 (1), (1999)</li>
-<li>John Bechhoefer and Scott Wilson. Faster, cheaper, safer optical tweezers for the undergraduate laboratory. Am. J. Phys. 70 (4), (2002). 
-http://www.sfu.ca/chaos/Publications/papers/AJP.pdf.</li>
-<li>Tsvi Tlusty, Amit Meller and Roy Bar-Ziv. Optical Gradient Forces of Strongly Localized Fields. Phys. Rev. Lett. 81, 1738-1741 (1998). http://prola.aps.org/pdf/PRL/v81/i8/p1738_1</li>
-<li>Mark C. Williams. Optical Tweezers: Measuring Piconewton Forces. Biophysical Society Textbook Online</li>
-
-		
-		<li>
-		<a href="5.http://www.biophysics.org/education/williams.pdf ">http://5.http://www.biophysics.org/education/williams.pdf </a>
-		</li> 
- 		 		<li>
-		<a href="http://www.pnas.org/cgi/reprint/94/10/4853.pdf">
-		http://www.pnas.org/cgi/reprint/94/10/4853.pdf
-		</a> 
-		</li>
+            <ul>	
+              <li>
+                <a href="http://en.wikipedia.org/wiki/
+                Simple_harmonic_motion">http://en.wikipedia.org/wiki/Simple_harmonic_motion</a>
+              </li>
+              <li>
+                <a href="http://www.physics.uoguelph.ca/
+                tutorials/shm/Q.shm.html">http://www.physics.uoguelph.ca/tutorials/shm/Q.shm.html</a>
+              </li> 
+              <li>
+                â€œDynamics of structuresâ€ by Anil K chopra. 
+              </li> 
+              <li>
+                <a href="http://surendranath.tripod.com/Applets/
+                Oscillations/SHM/SHMApplet.html">http://surendranath.tripod.com/Applets/Oscillations/SHM/SHMApplet.html</a> 
+              </li>
+            </ul>
           </div>
 
         </section>
