@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<head></head>
+<h1 id="main-title">
+Molecular Forces in a Triatomic molecule: A Magnetic Tweezer Experiment 
+</h1>
+
+<div  id="introduction">
+	<h2>Introduction </h2>
+	<p align="justify">
+A triatomic molecule has three atoms with two covalent bonds between two pairs of atoms. Examples are carbon dioxide (CO<sub>2</sub>), ozone (O<sub>3</sub>) and water (H<sub>2</sub>O). 
+There are two internuclear distances and a bond angle (refer the following figure) and these three independent variables determine the total energy of a triatomic
+molecule. Thus, in addition to the bond stretching potential we need to understand the role of bond angle energy in determining molecular stability. 
+</p>
+<p>
+<div style="text-align: center"><img src="images/water1.png"/> </div> <br />
+
+<p align="justify">
+The bond angle energy corresponds to changes in the angle between bonds. As with bond length, the bond angles have an equilibrium value, 
+and any deviation increases the potential energy. The potential energy surface associated with the bond angle can be approximated as 
+a harmonic well using the following function.
+</p>
+<p align="center">
+ U(θ) = K<sub>&#952</sub> ( &#952 − &#952 <sub>0</sub>) <sup>2</sup>
+</p>
+<p align="justify">
+where K<sub>&#952</sub> is an empirically determined constant, θ is the current bond angle, and θ<sub>0</sub> is the equilibrium angle.
+</p>
+<p>
+The energy surface ensures that any perturbation to the equilibrium geometry of a triatomic molecule increases the total potential energy of the molecule. 
+</p>
+<p align="justify">
+In this experiment, one of the atoms of a triatomic molecule is optically trapped at a fixed position. The bond lengths and bond angles are varied using using optical forces. The potential energies and corresponding internuclear forces are measured as a function of the end-to-end distance of the molecule.
+</p>
+</div>
+
+
+
+<div align= "center" id="theory">
+	<h2>Theory</h2> 
+	<p align="justify">	
+The potential energy of a triatomic molecule is approximated as follows:
+	</p>		
+<p align="center"> U(x<sub>12</sub> , x<sub>13</sub> , &#952) = 0.5 K (x<sub>12</sub> - x<sub>0</sub><sub>12</sub>)<sup>2</sup> + 0.5 K (x<sub>13</sub> - x<sub>0</sub><sub>13</sub>)<sup>2</sup> + 0.5 K<sub>&#952</sub> (&#952 - &#952<sub>0</sub>)<sup>2</sup>
+       </p>
+       </p>
+        <p> 
+This energy surface ensures that equilibrium geometry of the triatomic molecule is the configuration with least potential energy. The equilibrium geometry is obtained when θ = θ<sub>0</sub>, x<sub>12</sub> = x<sub>0</sub><sub>12</sub> and x<sub>13</sub> = x<sub>0</sub><sub>13</sub>. 
+       </p>
+        <p align="justify"> 
+The internuclear forces can be determined by calculating the negative gradient of U(x<sub>12</sub> , x<sub>13</sub> , &#952) with respect to the atomic coordinates of the atoms that are not fixed and their positions are controlled using the optical tweezer.
+</p>
+<p>
+
+</div>
+
+
+
+
+<div id="objective">
+	<h2> Objective </h2> 
+	<p align="justify">
+To determine the nature of molecular forces acting between the nuclei of triatomic molecules using optical tweezer experiments.
+
+</div>
+
+
+
+<div id="simulation">
+	<h2> Simulation </h2>
+ <li>
+                <a href="../latest_project/bin/magnet1.html">click here</a>
+                </li>
+
+</div>
+
+
+
+
+<div id="manual">
+	<h2> Manual </h2> 
+       <p align="justify">
+The initial display shows the experimental set up for a default triatomic molecule. To perform this experiment on a molecule of your
+choice, there are certain parameters to be initialized and the procedure detailed here can be followed.
+</p>
+<p align="justify">
+Step 1: Select the type of  molecule by using on which experiment is to be performed.
+<div style="text-align: center"><img src= "images/triatomic.png"  width= "700" height= "500"/></div>
+</p>
+<p align="justify">
+Step2: Select a suitable value of the three spring constants (two for bond stretching and one for angle bending) and equilibrium bond length and bond angle using 
+the sliders provided on the display menu,equlibrium length and size of the atoms by using the slider provided on the display  menu.
+<div style="text-align: center"><img src= "images/springconstant.png"  width= "700" height= "500"/></div>
+</p>
+<p align="justify">
+Step3: click here to start the experiment.
+<div style="text-align: center"><img src= "images/start.png" width= "700" height= "500"/></div>
+</p>
+<p align="justify">
+Step 4: The magnet position can be varied by x&y  the coordinates of magnet,using the slider provided.
+<div style="text-align: center"><img src= "images/coor.png" width= "700" height= "500" /></div>
+</p>
+<p>
+Step 4: The internuclear force and the potential energy are plotted as a function of the internuclear seperation and to "stop" the experiment,use stop tab.
+<div style="text-align: center"><img src= "images/energy.png" width= "700" height= "500"/></div>
+</p>
+</div>
+
+
+<div id="quizzes">
+        <h2>Quiz</h2>
+        <p>
+   <a href="./quiz.php">Click Here</a>
+        </p>
+</div>
+
+<div id="readings"> 
+	<h2> Further-Readings </h2> 
+	<ol>	
+		<li>
+1) Essentials of Computational Chemistry by Christopher J.Cramer<br>
+2) Physical Chemistry by Atkins <br>
+3) Dynamics of structures by Anil K chopra. <br>
+4) Molecular Modelling : Principles and Applications by Andrew Leach.<br>
+5) Optical Tweezers: Measuring Piconewton Forces Mark C. Williams Northeastern University.<br>
+6) Jurij Kotar  “Optical Tweezers” ,University of Cambridge, Cavendish Laboratory, Biological and Soft Systems.<br>
+7) http://www.stanford.edu/group/blocklab/Optical%20Tweezers%20Introduction.htm <br>
+		<a href="http://en.wikipedia.org/wiki/Simple_harmonic_motion">http://en.wikipedia.org/wiki/Simple_harmonic_motion</a>
+		</li>
+		<li>
+		<a href="http://www.physics.uoguelph.ca/tutorials/shm/Q.shm.html">http://www.physics.uoguelph.ca/tutorials/shm/Q.shm.html</a>
+		</li>  
+ 		<li>
+		<a href="http://surendranath.tripod.com/Applets/Oscillations/SHM/SHMApplet.html">
+		http://surendranath.tripod.com/Applets/Oscillations/SHM/SHMApplet.html
+		</a> 
+		</li>
+	</ol>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
