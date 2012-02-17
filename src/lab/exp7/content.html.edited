@@ -1,0 +1,408 @@
+<!-- This file needs to be edited by the lab developer to suit
+the requirements of their lab in particular.-->
+
+<!-- Add class="default" to include any element as it is
+specified in default.html. 
+Do not include class="default" to the elements that you want to
+edit -->
+
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+
+<div id="experiment"> <!-- The Experiment Document Container-->
+
+  <!-- The lab Header contains the logo and the name of the lab,
+  usually displayed on the top of the page-->
+
+  <header id="experiment-header" class="default">
+  
+    <div id="experiment-header-logo" class="logo">
+      <!-- Enclose the logo image of your lab or write it in 
+      text-->
+      <img src="../images/logo.jpg" />
+    </div>
+
+    <div id="experiment-header-heading" class="heading">
+      <!-- Write the name of your lab and link it to the home 
+      page of your lab (h1 tag is preferred while writing your 
+      lab name)-->
+      <a href="../index.html">Molecular Interactions</a>	
+    </div>
+
+    <!-- Add any additional element you want to add to the lab 
+    header, For example : Help (Enclosing them with suitable 
+    div is recommended)-->
+
+  </header>
+
+
+  <!-- The lab article is the main content area where all the 
+  experiment content sits-->
+  <article id="experiment-article">
+  
+    <!-- The lab article has an header, optional navigational 
+    menu, number of sections, an optional sidebar and a closing 
+    footer-->
+     <div id="experiment-article-breadcrumb" class="breadcrumb">
+     </div>
+    
+      <header id="experiment-article-heading" class="heading">
+        <!-- You can add a welcome message or title of the 
+        experiment here -->
+        Electrostatic forces between molecules 
+        <!-- Add any additional element if required with proper 
+        enclosing-->
+      </header>
+
+      <!-- Navigation menu is useful to organize the view of 
+      multiple sections inside the article-->
+      <nav id="experiment-article-navigation" class="default">
+        <ul id="experiment-article-navigation-menu">
+          <!-- The menu can be dynamically generated to contain 
+          the headings of your sections or instead write the 
+          menu items of your choice individually enclosedu in 
+          <li> tag as shown below-->
+        </ul>
+      </nav>
+
+      <!-- All the sections of your lab or experiment can be 
+      enclosed together with a div element as shown below-->
+      <div id="experiment-article-sections">
+
+        <!-- First section of the article-->
+        <section id="experiment-article-section-1">
+          
+          <div id="experiment-article-section-1-icon" 
+          class="icon">
+	    <!-- Enclose the icon image of your lab -->
+	    <img src="../images/introduction.jpg" />
+	  </div>	
+          
+          <!-- The heading for the section can be enclosed in a 
+          div tag. -->
+          <div id="experiment-article-section-1-heading" 
+          class="heading">
+            Introduction
+          </div>
+
+          <!-- Write the section content inside a paragraph 
+          element, You can also include images with <img> tag -->
+          <div id="experiment-article-section-1-content" 
+          class="content">	
+            <p align="justify">
+Electronegative atoms attract electrons more than electropositive atoms.This gives rise to uneven charge distribution in the molecule,The most common ways to represent
+charge distribution as point charges localised in the molecule.We then use coloumb's potential for point charges to estimate the forces between charged portions 
+and uncharged portions.
+
+
+</p>
+
+       
+        </div>
+
+
+      </section>
+
+      <!-- Second section of the article-->
+      <section id="experiment-article-section-2">
+        
+        <div id="experiment-article-section-2-icon" 
+        class="icon">
+	  <!-- Enclose the icon image of your lab. -->
+	  <img src="../images/theory.jpg" />
+	</div>
+				
+        <!-- The heading for the section can be enclosed in a 
+        div tag. -->
+        <div id="experiment-article-section-2-heading" 
+        class="heading">
+          Theory
+        </div>
+
+
+        <!-- Write the section content inside a paragraph 
+        element, we can also include images with <img> tag -->
+        <div id="experiment-article-section-2-content" 
+        class="content">
+         	<p align="justify">	
+Electrostatic forces only exist between molecules with permanent moments of their charge distribution.Molecules do not have to distort or fluctuate in order to exhibit electrostatic intermolecular forces.
+Intermolecular forces are longest-ranged (act strongly over a large distance) when they are electrostatic.<br></p>
+<p align="justify">
+<b>COULOMB'S LAW</b> :
+The scalar form of Coulomb's law is an expression for the magnitude and sign of the electrostatic force between two idealized point charges, small in size compared to their separation. 
+This force (F) acting simultaneously on point charges (q<sub>1</sub>) and (q<sub>2</sub>), is given by<br>
+<table class="fraction" align="center" cellpadding="0" cellspacing="0">
+<style>
+    td.upper_line { border-top:solid 1px black; }
+    table.fraction { text-align: center; vertical-align: middle;
+        margin-top:0.2em; margin-bottom:0.5em; line-height: 1.0em; }
+</style>
+
+    <tr>
+        <td rowspan="2" nowrap="nowrap">
+            <i>F</i> =  
+        </td><td nowrap="nowrap">--->
+            <i>k</i><i>q</i><sub>1</sub><i>q</i><sub>2</sub> 
+        </td>
+    </tr><tr>
+        <td class="upper_line">
+            r<sup>2</sup>
+        </td>
+    </tr>
+</table>
+<!--F=k*q<sub>1</sub>q<sub>2</sub>/r*2<br>-->
+where r is the separation distance and k<sub>e</sub> is a proportionality constant.<br> A positive force implies it is repulsive, while a negative force implies it is attractive.The proportionality constant k<sub>e</sub>, called the Coulomb constant (sometimes called the Coulomb force constant), 
+Coulomb's law holds even within the atoms, correctly describing the force between the positively charged nucleus and 
+each of the negatively charged electrons. This simple law also correctly accounts for the forces that bind 
+atoms together to form molecules and for the forces that bind atoms and molecules together to form solids and liquids.<br>
+The electrostatic interaction between two charges is given by Coulomb’s law,
+where q<sub>i</sub>, q<sub>j</sub> are the partial atomic charges, k<sub>e</sub> is the effective dielectric constant and r<sub>ij</sub> is the relative distance between the two particles.<br>
+<table class="fraction" align="center" cellpadding="0" cellspacing="0">
+<style>
+    td.upper_line { border-top:solid 1px black; }
+    table.fraction { text-align: center; vertical-align: middle;
+        margin-top:0.2em; margin-bottom:0.5em; line-height: 1.0em; }
+</style>
+
+    <tr>
+        <td rowspan="2" nowrap="nowrap">
+            <i>F</i> =  
+        </td><td nowrap="nowrap">
+            <i>k<sub>e</sub></i> <i>q</i><sub>i</sub> <i>q</i><sub>j</sub> 
+        </td>
+    </tr><tr>
+        <td class="upper_line">
+            r<sup>2</sup>
+        </td>
+    </tr>
+</table>
+F=k<sub>e</sub>*q<sub>i</sub>q<sub>j</sub>/r<sup>2</sup><br>
+The electrical potential energy for m no of molecules interacting with n no of molecules is given by<br>
+U=&#8721<sub>i</sub><sup>m</sup>k*qQ/r
+<table class="fraction" align="center" cellpadding="0" cellspacing="0">
+<style>
+    td.upper_line { border-top:solid 1px black; }
+    table.fraction { text-align: center; vertical-align: middle;
+        margin-top:0.2em; margin-bottom:0.5em; line-height: 1.0em; }
+</style>
+
+    <tr>
+        <td rowspan="2" nowrap="nowrap">
+            <i>U</i> =  
+        </td><td nowrap="nowrap">
+           &#8721<sub>i</sub><sup>m</sup> <i>k</i><i>q</i><i>Q</i> 
+        </td>
+    </tr><tr>
+        <td class="upper_line">
+            r
+        </td>
+    </tr>
+</table>
+</P>
+
+        </div>
+      </section>
+
+
+      <section id="experiment-article-section-3">
+        
+        <div id="experiment-article-section-3-icon" 
+        class="icon">
+	  <!-- Enclose the icon image of your lab. -->
+	  <img src="../images/objective.jpg" />
+	</div>
+     
+        <div id="experiment-article-section-3-heading" 
+        class="heading">
+          Objective
+        </div>
+
+        <div id="experiment-article-section-3-content" 
+        class="content">
+          <p align="justify">
+           To explain electrostatic interactions between molecules
+          </p> 
+       
+        
+        </div>
+
+      </section>
+
+
+      <section id="experiment-article-section-4">
+
+        <div id="experiment-article-section-4-icon" 
+        class="icon">
+	  <!-- Enclose the icon image of your lab.-->
+	  <img src="../images/simulation.jpg" />
+	</div>
+
+        <div id="experiment-article-section-4-heading" 
+      class="heading">
+          Experiment
+        </div>
+
+        <div id="experiment-article-section-4-content" 
+        class="content">
+          <p align="justify">
+	        <a href="../suraj/Suraj/bin/Electrostatic_Hexane.html">click here</a>
+            
+          </p>
+        </div>
+
+      </section>
+
+      <section id="experiment-article-section-5">
+   
+        <div id="experiment-article-section-5-icon" 
+        class="icon">
+	  <!-- Enclose the icon image of your lab.-->
+	  <img src="../images/manual.jpg" />
+	</div>
+
+        <div id="experiment-article-section-5-heading" 
+        class="heading">
+          Manual
+        </div>
+
+        <div id="experiment-article-section-5-content" 
+        class="content">
+<<<<<<< .mine
+<table>
+<tr><td>Step1:Select the molecule by clicking</tr></td> 
+<tr><td><img src= "images/Screenshot.png"  width= "300" height= "400"</tr></td>
+</table>
+<table>
+<tr><td>STEP2:Click 'Start' to start the experiment.</tr></td> 
+<tr><td><img src= "images/Screenshot-1.png"  width= "300" height= "400"></tr></td> 
+</table>
+
+=======
+<table>
+<tr><td>        
+Step1:Select the molecule by clicking</tr></td> 
+<tr><td><img src= "images/Screenshot.png"  width= "300" height= "400"</tr></td>
+</table>
+<p>
+STEP2:Click 'Start' to start the experiment.
+<img src= "images/Screenshot-1.png"  width= "300" height= "400"
+</p>
+<p >
+>>>>>>> .r61
+<!--Step3: Select a suitable value of the spring constant , equilibrium bond length and size of atom using the sliders provided on the display menu.
+<img src= "images/screenshot-2.png" width= "300" height= "400"
+</p>-->
+<table>
+<tr><td>Step 3: The positions of molecules can be varied by varying the coordinates on sliders,a plot of energy,force is seen.</tr></td>
+<tr><td><img  src= "images/Screenshot-2.png" width= "300" height= "400"></tr></td>
+</table>
+<!--<p align="justify">
+ Step 4: The magnet position can be varied by x&y  the coordinates of magnet,using the slider provided.
+<img src= "images/coor.png"  width= "300" height= "400"
+<p align="justify"> 
+Step 5: The internuclear force and the potential energy are plotted as a function of the internuclear seperation and to "stop" the experiment,use stop tab.
+<img src= "images/energy.png" width= "300" height= "400"-->
+ 
+
+          </div>
+
+        </section>
+
+        <section id="experiment-article-section-6">
+      
+          <div id="experiment-article-section-6-icon" 
+          class="icon">
+	    <!-- Enclose the icon image of your lab.-->
+	    <img src="../images/quizzes.jpg" />
+	  </div>
+
+          <div id="experiment-article-section-6-heading" 
+          class="heading">
+            Quizzes
+          </div>
+
+          <div id="experiment-article-section-6-content" 
+          class="content">
+            
+           	<p align="justify">
+	<a href="./quiz.php">Click Here</a>
+	</p> 
+            </p>
+
+          </div>
+
+        </section>		
+		
+        <section id="experiment-article-section-8">
+   
+          <div id="experiment-article-section-8-icon" 
+          class="icon">
+	    <!-- Enclose the icon image of your lab.-->
+	    <img src="../images/readings.jpg" />
+	  </div>
+
+          <div id="experiment-article-section-8-heading" 
+          class="heading">
+            Further Readings
+          </div>
+
+          <div id="experiment-article-section-8-content" 
+          class="content">
+            <ol>	
+		<li>
+P.W atkins "Physical chemistry"</li>
+<li>Intermolecular forces by Jacob N.Israelachvili</li>
+<li>Principles and Practice of Chromatography by Raymond P. W. Scott, </li>
+<li>http://www.wellesley.edu/Chemistry/chem211lab/Orgo_Lab_Manual/Appendix/Techniques/TLC/thin_layer_chrom.html</li>
+<li>http://ww2.chemistry.gatech.edu/~lw26/structure/molecular_interactions/mol_int.html#B</li>
+<li>http://www.studyhplc.com/thechromatographicprinciple.php</li>
+		
+		<li>
+		<a href="http://www.chemguide.co.uk/analysis/chromatography/column.html">http://www.chemguide.co.uk/analysis/chromatography/column.html</a>
+		</li> 
+ 		<li>
+		“Chromatography Techinques”  by Anil K chopra. 
+		</li> 
+ 		<li>
+		<a href="http://en.wikipedia.org/wiki/Column_chromatography">
+		http://en.wikipedia.org/wiki/Column_chromatography
+		</a> 
+		</li>
+	</ol>
+          </div>
+
+        </section>
+
+      </div>
+
+
+    <!-- An article can have a sidebar that contain related 
+    links and additional material (however it is kept optional 
+    at this moment) -->
+    <aside id="lab-article-sidebar" class="default">
+      <!-- put the content that you want to appear in the 
+      sidebar -->	
+    </aside>
+
+
+    <!-- Article footer can display related content and 
+    additional links -->						
+    <footer id="lab-article-footer" class="default">
+      <!-- Put the content that you want to appear here -->
+    </footer>
+
+  </article>
+
+
+  <!-- Links to other labs, about us page can be kept the lab 
+  footer-->
+  <footer id="lab-footer" class="default">
+    <!-- Put the content here-->
+  </footer>
+
+</div>		
+
+</body>
+</html>
