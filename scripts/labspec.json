@@ -1,0 +1,124 @@
+{
+    "lab": {
+        "build_requirements": {
+            "platform": {
+                "arch": "i386", 
+                "build_steps": {
+                    "build": [], 
+                    "configure": [], 
+                    "post_build": [], 
+                    "pre_build": [], 
+                    "status": []
+                }, 
+                "installer": [], 
+                "os": "ubuntu", 
+                "osVersion": "12", 
+                "service_pack": ""
+            }
+        }, 
+        "description": {
+            "developer": [
+                {
+                    "contact": {
+                        "alternate_email": "", 
+                        "email": "m.krishnan@iiit.ac.in", 
+                        "mobile_number": "", 
+                        "office_number": ""
+                    }, 
+                    "department": "", 
+                    "institute": "IIIT Hyderabad", 
+                    "name": "Krishnan Marimuttu", 
+                    "organization": "", 
+                    "role": "Lab Developer", 
+                    "title": "", 
+                    "web": ""
+                }, 
+                {
+                    "contact": {
+                        "alternate_email": "", 
+                        "email": "rajitha.tatikonda@research.iiit.ac.in", 
+                        "mobile_number": "", 
+                        "office_number": ""
+                    }, 
+                    "department": "", 
+                    "institute": "IIIT Hyderabad", 
+                    "name": "Rajitha Tatikonda", 
+                    "organization": "", 
+                    "role": "Lab RA", 
+                    "title": "", 
+                    "web": ""
+                }, 
+                {
+                    "contact": {
+                        "alternate_email": "", 
+                        "email": "mohanmaruthi.sena@research.iiit.ac.in", 
+                        "mobile_number": "", 
+                        "office_number": ""
+                    }, 
+                    "department": "", 
+                    "institute": "IIIT Hyderabad", 
+                    "name": "Mohanmaruthi Sena", 
+                    "organization": "", 
+                    "role": "Lab RA", 
+                    "title": "", 
+                    "web": ""
+                }, 
+                {
+                    "contact": {
+                        "alternate_email": "", 
+                        "email": "suraj.menon@students.iiit.ac.in", 
+                        "mobile_number": "", 
+                        "office_number": ""
+                    }, 
+                    "department": "", 
+                    "institute": "IIIT Hyderabad", 
+                    "name": "Suraj Menon", 
+                    "organization": "", 
+                    "role": "Lab RA", 
+                    "title": "", 
+                    "web": ""
+                }
+            ], 
+            "discipline": [
+                "Chemical Sciences"
+            ], 
+            "id": "ccnsb07", 
+            "integration_level": 5, 
+            "name": "Molecular Interactions", 
+            "server-side": true, 
+            "status": "Released", 
+            "type": ""
+        }, 
+        "runtime_requirements": {
+            "platform": {
+                "arch": "i386", 
+                "hosting": "dedicated", 
+                "installer": [], 
+                "lab_actions": {
+                    "backup": [], 
+                    "clean": [], 
+                    "init": [], 
+                    "pause": [], 
+                    "publish": [], 
+                    "restore": [], 
+                    "resume": [], 
+                    "shutdown": [], 
+                    "start": [], 
+                    "stats": [], 
+                    "stop": []
+                }, 
+                "memory": {
+                    "max_required": "2gb", 
+                    "min_required": "256mb"
+                }, 
+                "os": "ubuntu", 
+                "osVersion": "12", 
+                "servicepack": "", 
+                "storage": {
+                    "min_required": "10gb"
+                }
+            }
+        }
+    }, 
+    "template": "1.0"
+}
