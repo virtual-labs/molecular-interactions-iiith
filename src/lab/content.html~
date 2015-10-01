@@ -318,7 +318,23 @@ that quantify the strengths of these atomic interactions.
 	  </p>
 	</div>
 	</section>
-
+	<section id="lab-article-section-6">
+        
+        <div id="lab-article-section-6-icon" class="icon">
+          <!-- Change here -->
+	  <img src="images/manual.jpg" />
+	</div>
+	<div id="lab-article-section-6-heading" class="heading">
+	 FeedBack
+	</div>
+				
+	<!-- Write the section content inside a paragraph 
+        element, You can also include images with <img> tag -->
+        <div id="lab-article-section-6-content" class="content">
+	  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://virtual-labs.ac.in/feedback/?lab=ccnsb07">Click Here</a>
+	</div>
+	
+      </section>
 
       </div>	
 
