@@ -39,7 +39,7 @@ tr .boundingBox {
 	float:right;
 	width:200px;
 	font-weight:bold;
-	color: green;
+	color: black;
 	-moz-box-shadow: 5px 5px 5px #888;
 	-webkit-box-shadow: 5px 5px 5px #888;
 	box-shadow: 5px 5px 5px #888;	
@@ -122,7 +122,7 @@ function getOptions(opt){
 	<?php 
 	if($_POST){
 		echo "</td><td>";
-		if($_POST['Q3'] == "A"){
+		if($_POST['Q3'] == "True"){
 			echo "<span style='color:green'>(".$_POST['Q3'].") IS CORRECT</span>";
 		}
 		else{
