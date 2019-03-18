@@ -39,7 +39,7 @@ tr .boundingBox {
 	float:right;
 	width:200px;
 	font-weight:bold;
-	color: green;
+	color:black;
 	-moz-box-shadow: 5px 5px 5px #888;
 	-webkit-box-shadow: 5px 5px 5px #888;
 	box-shadow: 5px 5px 5px #888;	
