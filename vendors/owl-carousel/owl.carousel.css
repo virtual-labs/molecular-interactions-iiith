@@ -68,4 +68,14 @@
   -moz-transform: translate3d(0,0,0);
   -ms-transform: translate3d(0,0,0);
 }
+.make
+{
+        width:60%;
+        height:auto;
+}
+.make2
+{
+        width:36%;
+        height:auto;
+}
 
