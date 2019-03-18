@@ -68,4 +68,16 @@
   -moz-transform: translate3d(0,0,0);
   -ms-transform: translate3d(0,0,0);
 }
+.formula1{
 
+	width:100%;
+	heigth:auto;
+}
+.formula2{
+	width:40%;
+	heigth:auto;
+}
+.makeresponsive{
+	width:50%;
+	height:auto;
+}
