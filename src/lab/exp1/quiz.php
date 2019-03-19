@@ -4,7 +4,6 @@
 *{
 	font-family: Verdana, calibri;
 }
-
 #content{
 	margin : auto;
 	width: 900px;
@@ -122,7 +121,7 @@ function getOptions(opt){
 	<?php 
 	if($_POST){
 		echo "</td><td>";
-		if($_POST['Q3'] == "A"){
+		if($_POST['Q3'] == "True"){
 			echo "<span style='color:green'>(".$_POST['Q3'].") IS CORRECT</span>";
 		}
 		else{
@@ -192,4 +191,3 @@ function getOptions(opt){
 </div>
 </body>
 </html>
-
