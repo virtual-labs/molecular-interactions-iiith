@@ -157,7 +157,7 @@ function getOptions(opt){
   <tr><td>
      <li>
 	 Electrostatic potential is a vector quantity.
-      <ol type="True">
+      <ol type="False">
 	 <li><input type="radio" name="Q5" value="True">True</li>
 	 <li><input type="radio" name="Q5" value="False">False</li>
 	 
@@ -166,7 +166,7 @@ function getOptions(opt){
 	<?php 
 	if($_POST){
 		echo "</td><td>";
-		if($_POST['Q5'] == "True"){
+		if($_POST['Q5'] == "False"){
 			echo "<span style='color:green'>(".$_POST['Q5'].") IS CORRECT</span>";
 		}
 		else{
@@ -185,7 +185,7 @@ function getOptions(opt){
 	<input type="submit" id="go" class="boundingBox" value="SUBMIT"><br><br><Br>
 	<?php }?>
 	</form>
-<center><button class="boundingBox1" onclick='window.location="./swf.html";'><strong>Back To Experiment<string></button>
+<center><button class="boundingBox1" onclick='window.location="./Experiment.html";'><strong>Back To Experiment<string></button>
 <t><button class="boundingBox1" onclick='window.location="./index.html";'><strong>Back To Theory<string></button></center>
 
 
