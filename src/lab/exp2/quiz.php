@@ -59,6 +59,8 @@ function getOptions(opt){
 	document.getElementById("end").innerHTML = options;
 }
 </script>
+
+     <link rel="shortcut icon" href="../../../images/favicon.ico">
 </head>
 <body>
 <div id="content">
