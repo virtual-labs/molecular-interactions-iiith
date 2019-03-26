@@ -71,10 +71,11 @@ function getOptions(opt){
     <li>
 	     The magnitude of the harmonic force increases linearly with the internuclear separation of a diatomic molecule 
       <ol type="True">
-	 <li><input type="radio" name="Q1" value="True">True</li>
-	 <li><input type="radio" name="Q1" value="False">False</li>
-	 
+	 <li><input type="radio" name="Q1" id="Q1t" value="True">True</li>
+	 <li><input type="radio" name="Q1" id="Q1f" value="False">False</li>
+	 <input type="button" value="Clear" onclick="document.getElementById('Q1t').checked=false; document.getElementById('Q1f').checked=false">
       </ol>
+
     </li>
 <br>	<?php 
 	if($_POST){
@@ -92,9 +93,9 @@ function getOptions(opt){
     <li>
 	 The curvature of the internuclear potential energy is related to the spring constant
       <ol type="True">
-	 <li><input type="radio" name="Q2" value="True">True</li>
-	 <li><input type="radio" name="Q2" value="False">False</li>
-	 
+	 <li><input type="radio" name="Q2" id="Q2t" value="True">True</li>
+	 <li><input type="radio" name="Q2" id="Q2f" value="False">False</li>
+	 <input type="button" value="Clear" onclick="document.getElementById('Q2t').checked=false; document.getElementById('Q2f').checked=false">
       </ol>
     </li><br>
 	<?php 
@@ -114,9 +115,9 @@ function getOptions(opt){
      <li>
 	 The potential energy at large separation's is essentially the bond energy
       <ol type="True">
-	 <li><input type="radio" name="Q3" value="True">True</li>
-	 <li><input type="radio" name="Q3" value="False">False</li>
-	 
+	 <li><input type="radio" name="Q3" id="Q3t" value="True">True</li>
+	 <li><input type="radio" name="Q3" id="Q3f" value="False">False</li>
+	 <input type="button" value="Clear" onclick="document.getElementById('Q3t').checked=false; document.getElementById('Q3f').checked=false">
       </ol>
     </li><br>
 	<?php 
@@ -136,9 +137,9 @@ function getOptions(opt){
     <li>
 	      Force is equal to the negative gradient of potential energy
       <ol type="True">
-	 <li><input type="radio" name="Q4" value="True">True</li>
-	 <li><input type="radio" name="Q4" value="False">False</li>
-	 
+	 <li><input type="radio" name="Q4" id="Q4t" value="True"/>True</li>
+	 <li><input type="radio" name="Q4" id="Q4f" value="False">False</li>
+	 <input type="button" value="Clear" onclick="document.getElementById('Q4t').checked=false; document.getElementById('Q4f').checked=false">
       </ol>
     </li><br>
 	<?php 
@@ -158,9 +159,9 @@ function getOptions(opt){
      <li>
 	 Morse potential is a symmetric function of internuclear separation 
       <ol type="False">
-	 <li><input type="radio" name="Q5" value="True">True</li>
-	 <li><input type="radio" name="Q5" value="False">False</li>
-	 
+	 <li><input type="radio" name="Q5" id="Q5t" value="True">True</li>
+	 <li><input type="radio" name="Q5" id="Q5f" value="False">False</li>
+	 <input type="button" value="Clear" onclick="document.getElementById('Q5t').checked=false; document.getElementById('Q5f').checked=false">
       </ol>
     </li>
 	<?php 
