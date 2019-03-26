@@ -66,8 +66,6 @@ function getOptions(opt){
 
   <form name="quiz" action="quiz.php" method="POST">
   <ol>
-  <table>
-  <tr><td width=70%>
     <li>
 	     The magnitude of the harmonic force increases linearly with the internuclear separation of a diatomic molecule 
       <ol type="True">
@@ -87,8 +85,6 @@ function getOptions(opt){
 		}
 	}
 	?>
-  </td></tr>
-  <tr><td>
     <li>
 	 The curvature of the internuclear potential energy is related to the spring constant
       <ol type="True">
@@ -108,9 +104,6 @@ function getOptions(opt){
 		}
 	}
 	?>
-  </td></tr>
-
-  <tr><td>
      <li>
 	 The potential energy at large separation's is essentially the bond energy
       <ol type="True">
@@ -130,9 +123,6 @@ function getOptions(opt){
 		}
 	}
 	?>
-  </td></tr>
-
-  <tr><td>
     <li>
 	      Force is equal to the negative gradient of potential energy
       <ol type="True">
@@ -152,9 +142,6 @@ function getOptions(opt){
 		}
 	}
 	?>
-  </td></tr>
-
-  <tr><td>
      <li>
 	 Morse potential is a symmetric function of internuclear separation 
       <ol type="False">
@@ -174,11 +161,6 @@ function getOptions(opt){
 		}
 	}
 	?>
-  </td></tr>
-
-  
-   
-</table>
   </ol>
 	
 	<?php	if(!$_POST){ ?>
