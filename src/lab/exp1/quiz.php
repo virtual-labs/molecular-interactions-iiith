@@ -82,8 +82,12 @@ function getOptions(opt){
 		if($_POST['Q1'] == "True"){
 			echo "<span style='color:green'>(".$_POST['Q1'].") IS CORRECT</span>";
 		}
-		else{
+		else if($_POST['Q1'] == "False"){
 			echo "<span style='color:red'>(".$_POST['Q1'].") IS NOT CORRECT ! </span>";
+		}
+		else
+		{
+			echo "<span style='color:blue'> NO OPTION SELECTED! </span>";
 		}
 	}
 	?>
@@ -103,8 +107,12 @@ function getOptions(opt){
 		if($_POST['Q2'] == "True"){
 			echo "<span style='color:green'>(".$_POST['Q2'].") IS CORRECT</span>";
 		}
-		else{
+		else if($_POST['Q2'] == "False"){
 			echo "<span style='color:red'>(".$_POST['Q2'].") IS NOT CORRECT ! </span>";
+		}
+		else
+		{
+			echo "<span style='color:blue'> NO OPTION SELECTED! </span>";
 		}
 	}
 	?>
@@ -125,8 +133,12 @@ function getOptions(opt){
 		if($_POST['Q3'] == "A"){
 			echo "<span style='color:green'>(".$_POST['Q3'].") IS CORRECT</span>";
 		}
-		else{
+		else if($_POST['Q3'] == "B"){
 			echo "<span style='color:red'>(".$_POST['Q3'].") IS NOT CORRECT ! </span>";
+		}
+		else
+		{
+			echo "<span style='color:blue'> NO OPTION SELECTED! </span>";
 		}
 	}
 	?>
@@ -147,8 +159,12 @@ function getOptions(opt){
 		if($_POST['Q4'] == "True"){
 			echo "<span style='color:green'>(".$_POST['Q4'].") IS CORRECT</span>";
 		}
-		else{
+		else if($_POST['Q4'] == "False"){
 			echo "<span style='color:red'>(".$_POST['Q4'].") IS NOT CORRECT !</span>";
+		}
+		else
+		{
+			echo "<span style='color:blue'> NO OPTION SELECTED! </span>";
 		}
 	}
 	?>
@@ -169,8 +185,12 @@ function getOptions(opt){
 		if($_POST['Q5'] == "False"){
 			echo "<span style='color:green'>(".$_POST['Q5'].") IS CORRECT</span>";
 		}
-		else{
+		else if($_POST['Q5'] == "True"){
 			echo "<span style='color:red'>(".$_POST['Q5'].") IS NOT CORRECT ! </span>";
+		}
+		else
+		{
+			echo "<span style='color:blue'> NO OPTION SELECTED! </span>";
 		}
 	}
 	?>
