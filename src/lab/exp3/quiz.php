@@ -177,7 +177,6 @@ function getOptions(opt){
 	}
 	?>
   </td></tr>
-
   
    
 </table>
