@@ -179,8 +179,7 @@ function getOptions(opt){
   
    
 </table>
-  </ol>
-	
+  </ol>	
 	<?php	if(!$_POST){ ?>
 	<input type="submit" id="go" class="boundingBox" value="SUBMIT"><br><br><Br>
 	<?php }?>
