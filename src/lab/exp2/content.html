@@ -1,37 +1,36 @@
 <!-- This file needs to be edited by the lab developer to suit
-the requirements of their lab in particular.-->
-
-<!-- Add class="default" to include any element as it is
+the requirements of their lab in particular.--><!-- Add class="default" to include any element as it is
 specified in default.html. 
 Do not include class="default" to the elements that you want to
-edit -->
-
-<!DOCTYPE html>
-<html>
-<head></head>
-<body>
+edit --><!DOCTYPE html>
+<html><head><!--Google Tag Manager--><script class="gtm">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W59SWTR');</script><!--End Google Tag Manager--></head>
+<body><!--Google Tag Manager (noscript)--><noscript class="gtm"><iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-W59SWTR" style="display:none;visibility:hidden" width="0"></iframe></noscript><!--End Google Tag Manager (noscript)-->
 
 <div id="experiment"> <!-- The Experiment Document Container-->
 
   <!-- The lab Header contains the logo and the name of the lab,
   usually displayed on the top of the page-->
 
-  <header id="experiment-header" class="default">
+  <header class="default" id="experiment-header">
   
-    <div id="experiment-header-logo" class="logo">
+    <div class="logo" id="experiment-header-logo">
 	<!-- Enclose the logo image of your lab or write it in 
 	text-->
 
 		<a href="http://virtual-labs.ac.in/"><div class="imagemap">
-			<img src="http://virtual-labs.ac.in/images/virtualLabsLogo.jpg" alt="" usemap="#logos" />
+			<img alt="" src="http://virtual-labs.ac.in/images/virtualLabsLogo.jpg" usemap="#logos"/>
 
 	
 			<map name="logos">
 			
-				<area shape="rect" coords="0,0,505,98" href="http://www.vlab.co.in/" title="Vlab" alt="Vlab" />
-				<area shape="rect" coords="734,0,1022,97" href="http://www.iiit.ac.in/" title="IIIT" alt="IIIT" />
+				<area alt="Vlab" coords="0,0,505,98" href="http://www.vlab.co.in/" shape="rect" title="Vlab"></area>
+				<area alt="IIIT" coords="734,0,1022,97" href="http://www.iiit.ac.in/" shape="rect" title="IIIT"></area>
 			
-				<area shape="default" nohref="nohref" title="Default" alt="Default"/>
+				<area alt="Default" nohref="nohref" shape="default" title="Default"></area>
 			</map>
 
 			</div>
@@ -39,7 +38,7 @@ edit -->
 	     </a>
 	</div>
 
-    <div id="experiment-header-heading" class="heading">
+    <div class="heading" id="experiment-header-heading">
       <!-- Write the name of your lab and link it to the home 
       page of your lab (h1 tag is preferred while writing your 
       lab name)-->
@@ -60,10 +59,10 @@ edit -->
     <!-- The lab article has an header, optional navigational 
     menu, number of sections, an optional sidebar and a closing 
     footer-->
-     <div id="experiment-article-breadcrumb" class="breadcrumb">
+     <div class="breadcrumb" id="experiment-article-breadcrumb">
      </div>
     
-      <header id="experiment-article-heading" class="heading">
+      <header class="heading" id="experiment-article-heading">
         <!-- You can add a welcome message or title of the 
         experiment here -->
         Molecular forces in a triatomic molecule
@@ -73,7 +72,7 @@ edit -->
 
       <!-- Navigation menu is useful to organize the view of 
       multiple sections inside the article-->
-      <nav id="experiment-article-navigation" class="default">
+      <nav class="default" id="experiment-article-navigation">
         <ul id="experiment-article-navigation-menu">
           <!-- The menu can be dynamically generated to contain 
           the headings of your sections or instead write the 
@@ -89,30 +88,27 @@ edit -->
         <!-- First section of the article-->
         <section id="experiment-article-section-1">
           
-          <div id="experiment-article-section-1-icon" 
-          class="icon">
+          <div class="icon" id="experiment-article-section-1-icon">
 	    <!-- Enclose the icon image of your lab -->
-	    <img src="../images/introduction.jpg" />
+	    <img src="../images/introduction.jpg"/>
 	  </div>	
           
           <!-- The heading for the section can be enclosed in a 
           div tag. -->
-          <div id="experiment-article-section-1-heading" 
-          class="heading">
+          <div class="heading" id="experiment-article-section-1-heading">
             Introduction
           </div>
 
           <!-- Write the section content inside a paragraph 
           element, You can also include images with <img> tag -->
-          <div id="experiment-article-section-1-content" 
-          class="content">	
+          <div class="content" id="experiment-article-section-1-content">	
             <p align="justify">
 A triatomic molecule has three atoms with two covalent bonds between two pairs of atoms. Examples are carbon dioxide (CO<sub>2</sub>), ozone (O<sub>3</sub>) and water (H<sub>2</sub>O). 
 There are two internuclear distances and a bond angle (refer the following figure) and these three independent variables determine the total energy of a triatomic
 molecule. Thus, in addition to the bond stretching potential we need to understand the role of bond angle energy in determining molecular stability. 
 </p>
 <p>
-<div style="text-align: center"><img src= "images/water1.png" height= "150" width= "150" /></div> <br />
+</p><div style="text-align: center"><img height="150" src="images/water1.png" width="150"/></div> <br/>
 
 <p align="justify">
 The bond angle energy corresponds to changes in the angle between bonds. As with bond length, the bond angles have an equilibrium value, 
@@ -120,10 +116,10 @@ and any deviation increases the potential energy. The potential energy surface a
 a harmonic well using the following function.
 </p>
 <p align="center">
- U(&#952) = K<sub>&#952</sub> ( &#952 &#8722 &#952 <sub>0</sub>) <sup>2</sup>
+ U(θ) = K<sub>θ</sub> ( θ − θ <sub>0</sub>) <sup>2</sup>
 </p>
 <p align="justify">
-where K<sub>&#952</sub> is an empirically determined constant, &#952 is the current bond angle, and &#952<sub>0</sub> is the equilibrium angle.
+where K<sub>θ</sub> is an empirically determined constant, θ is the current bond angle, and θ<sub>0</sub> is the equilibrium angle.
 </p>
 <p>
 The energy surface ensures that any perturbation to the equilibrium geometry of a triatomic molecule increases the total potential energy of the molecule. 
@@ -139,58 +135,52 @@ In this experiment, one of the atoms of a triatomic molecule is  fixed at a posi
       <!-- Second section of the article-->
       <section id="experiment-article-section-2">
         
-        <div id="experiment-article-section-2-icon" 
-        class="icon">
+        <div class="icon" id="experiment-article-section-2-icon">
 	  <!-- Enclose the icon image of your lab. -->
-	  <img src="../images/theory.jpg" />
+	  <img src="../images/theory.jpg"/>
 	</div>
 				
         <!-- The heading for the section can be enclosed in a 
         div tag. -->
-        <div id="experiment-article-section-2-heading" 
-        class="heading">
+        <div class="heading" id="experiment-article-section-2-heading">
           Theory
         </div>
 
 
         <!-- Write the section content inside a paragraph 
         element, we can also include images with <img> tag -->
-        <div id="experiment-article-section-2-content" 
-        class="content">
+        <div class="content" id="experiment-article-section-2-content">
           <p align="justify">	
 The potential energy of a triatomic molecule is approximated as follows:
 	</p>		
-<p align="center"> U(x<sub>12</sub> , x<sub>13</sub> , &#952) = 0.5 K (x<sub>12</sub> - x<sub>0</sub><sub>12</sub>)<sup>2</sup> + 0.5 K (x<sub>13</sub> - x<sub>0</sub><sub>13</sub>)<sup>2</sup> + 0.5 K<sub>&#952</sub> (&#952 - &#952<sub>0</sub>)<sup>2</sup>
+<p align="center"> U(x<sub>12</sub> , x<sub>13</sub> , θ) = 0.5 K (x<sub>12</sub> - x<sub>0</sub><sub>12</sub>)<sup>2</sup> + 0.5 K (x<sub>13</sub> - x<sub>0</sub><sub>13</sub>)<sup>2</sup> + 0.5 K<sub>θ</sub> (θ - θ<sub>0</sub>)<sup>2</sup>
        </p>
-       </p>
+       <p></p>
         <p> 
 This energy surface ensures that equilibrium geometry of the triatomic molecule is the configuration with least potential energy. The equilibrium geometry is obtained when θ = θ<sub>0</sub>, x<sub>12</sub> = x<sub>0</sub><sub>12</sub> and x<sub>13</sub> = x<sub>0</sub><sub>13</sub>. 
        </p>
         <p align="justify"> 
-The internuclear forces can be determined by calculating the negative gradient of U(x<sub>12</sub> , x<sub>13</sub> , &#952) with respect to the atomic coordinates of the atoms that are not fixed and their positions are controlled using the optical tweezer.
+The internuclear forces can be determined by calculating the negative gradient of U(x<sub>12</sub> , x<sub>13</sub> , θ) with respect to the atomic coordinates of the atoms that are not fixed and their positions are controlled using the optical tweezer.
 </p>
 <p>
 
 
-        </div>
+        </p></div>
       </section>
 
 
       <section id="experiment-article-section-3">
         
-        <div id="experiment-article-section-3-icon" 
-        class="icon">
+        <div class="icon" id="experiment-article-section-3-icon">
 	  <!-- Enclose the icon image of your lab. -->
-	  <img src="../images/objective.jpg" />
+	  <img src="../images/objective.jpg"/>
 	</div>
      
-        <div id="experiment-article-section-3-heading" 
-        class="heading">
+        <div class="heading" id="experiment-article-section-3-heading">
           Objective
         </div>
 
-        <div id="experiment-article-section-3-content" 
-        class="content">
+        <div class="content" id="experiment-article-section-3-content">
           <p>
             To determine the nature of molecular forces acting between the nuclei of triatomic molecules using magnetic tweezer tweezer experiments.
           </p> 
@@ -201,19 +191,16 @@ The internuclear forces can be determined by calculating the negative gradient o
 
       <section id="experiment-article-section-4">
 
-        <div id="experiment-article-section-4-icon" 
-        class="icon">
+        <div class="icon" id="experiment-article-section-4-icon">
 	  <!-- Enclose the icon image of your lab.-->
-	  <img src="../images/simulation.jpg" />
+	  <img src="../images/simulation.jpg"/>
 	</div>
 
-        <div id="experiment-article-section-4-heading" 
-        class="heading">
+        <div class="heading" id="experiment-article-section-4-heading">
           Experiment
         </div>
 
-        <div id="experiment-article-section-4-content" 
-        class="content">
+        <div class="content" id="experiment-article-section-4-content">
           <p>
 	 <a href="../latest_project/bin/magnet1.html">click here</a>
           </p>
@@ -223,65 +210,59 @@ The internuclear forces can be determined by calculating the negative gradient o
 
       <section id="experiment-article-section-5">
    
-        <div id="experiment-article-section-5-icon" 
-        class="icon">
+        <div class="icon" id="experiment-article-section-5-icon">
 	  <!-- Enclose the icon image of your lab.-->
-	  <img src="../images/manual.jpg" />
+	  <img src="../images/manual.jpg"/>
 	</div>
 
-        <div id="experiment-article-section-5-heading" 
-        class="heading">
+        <div class="heading" id="experiment-article-section-5-heading">
           Manual
         </div>
 
-        <div id="experiment-article-section-5-content" 
-        class="content">
+        <div class="content" id="experiment-article-section-5-content">
         <p align="justify">
 The initial display shows the experimental set up for a default triatomic molecule. To perform this experiment on a molecule of your
 choice, there are certain parameters to be initialized and the procedure detailed here can be followed.
 </p>
 <table>
-<tr><td>
-STEP 1: Select the tri atomic molecule by clicking on the tab provided.</tr></td>
-<tr><td><img src= "images/triatomic.png"  width= "700" height= "500" ></td><tr>
-</table>
-</p>
+<tbody><tr><td>
+STEP 1: Select the tri atomic molecule by clicking on the tab provided.</td></tr>
+<tr><td><img height="500" src="images/triatomic.png" width="700"/></td></tr><tr>
+</tr></tbody></table>
+<p></p>
 <p align="justify">
 STEP 2: Select a suitable value of the three spring constants (two for bond stretching and one for angle bending) and equilibrium bond length and bond angle using 
 the sliders provided on the display menu,equlibrium length and size of the atoms by using the slider provided on the display  menu.
-<div style="text-align: center"><img src= "images/springconstant.png"  width= "700" height= "500"/></div>
-</p>
+</p><div style="text-align: center"><img height="500" src="images/springconstant.png" width="700"/></div>
+<p></p>
 <p align="justify">
 STEP 3: click here to start the experiment.
-<div style="text-align: center"><img src= "images/start.png" width= "700" height= "500"/></div>
-</p>
+</p><div style="text-align: center"><img height="500" src="images/start.png" width="700"/></div>
+<p></p>
 <p align="justify">
 STEP 4: The magnet position can be varied using the slider provided.
-<div style="text-align: center"><img src= "images/coor.png" width= "700" height= "500" /></div>
-</p>
+</p><div style="text-align: center"><img height="500" src="images/coor.png" width="700"/></div>
+<p></p>
 <p>
 STEP 5: The internuclear force and the potential energy are plotted as a function of the internuclear seperation.
-<div style="text-align: center"><img src= "images/energy.png" width= "700" height= "500"/></div>
-</p>
+</p><div style="text-align: center"><img height="500" src="images/energy.png" width="700"/></div>
+<p></p>
 </div>
 
         </section>
 
         <section id="experiment-article-section-6">
       
-          <div id="experiment-article-section-6-icon" 
-          class="icon">
+          <div class="icon" id="experiment-article-section-6-icon">
 	    <!-- Enclose the icon image of your lab.-->
-	    <img src="../images/quizzes.jpg" />
+	    <img src="../images/quizzes.jpg"/>
 	  </div>
 
-          <div id="experiment-article-section-6-heading" 
-          class="heading">
+          <div class="heading" id="experiment-article-section-6-heading">
             Quizzes
           </div>
 
-          <div id="experiment-article-section-6-content" 
-          class="content">
+          <div class="content" id="experiment-article-section-6-content">
             
             <p>
            <a href="./quiz.php">Click Here</a>   
@@ -294,19 +275,16 @@ STEP 5: The internuclear force and the potential energy are plotted as a functio
 		
         <section id="experiment-article-section-8">
    
-          <div id="experiment-article-section-8-icon" 
-          class="icon">
+          <div class="icon" id="experiment-article-section-8-icon">
 	    <!-- Enclose the icon image of your lab.-->
-	    <img src="../images/readings.jpg" />
+	    <img src="../images/readings.jpg"/>
 	  </div>
 
-          <div id="experiment-article-section-8-heading" 
-          class="heading">
+          <div class="heading" id="experiment-article-section-8-heading">
             Further Readings
           </div>
 
-          <div id="experiment-article-section-8-content" 
-          class="content">
+          <div class="content" id="experiment-article-section-8-content">
            <ol>	
 		
  <li>Essentials of Computational Chemistry by Christopher J.Cramer</li>
@@ -317,7 +295,7 @@ STEP 5: The internuclear force and the potential energy are plotted as a functio
  <li>Jurij Kotar  “Optical Tweezers” ,University of Cambridge, Cavendish Laboratory, Biological and Soft Systems.</li>
  <li>http://www.stanford.edu/group/blocklab/Optical%20Tweezers%20Introduction.htm </li>
 		<a href="http://en.wikipedia.org/wiki/Simple_harmonic_motion">http://en.wikipedia.org/wiki/Simple_harmonic_motion</a>
-		</li>
+		
 		<li>
 		<a href="http://www.physics.uoguelph.ca/tutorials/shm/Q.shm.html">http://www.physics.uoguelph.ca/tutorials/shm/Q.shm.html</a>
 		</li>  
@@ -337,7 +315,7 @@ STEP 5: The internuclear force and the potential energy are plotted as a functio
     <!-- An article can have a sidebar that contain related 
     links and additional material (however it is kept optional 
     at this moment) -->
-    <aside id="lab-article-sidebar" class="default">
+    <aside class="default" id="lab-article-sidebar">
       <!-- put the content that you want to appear in the 
       sidebar -->	
     </aside>
@@ -345,7 +323,7 @@ STEP 5: The internuclear force and the potential energy are plotted as a functio
 
     <!-- Article footer can display related content and 
     additional links -->						
-    <footer id="lab-article-footer" class="default">
+    <footer class="default" id="lab-article-footer">
       <!-- Put the content that you want to appear here -->
     </footer>
 
@@ -354,11 +332,12 @@ STEP 5: The internuclear force and the potential energy are plotted as a functio
 
   <!-- Links to other labs, about us page can be kept the lab 
   footer-->
-  <footer id="lab-footer" class="default">
+  <footer class="default" id="lab-footer">
     <!-- Put the content here-->
   </footer>
 
 </div>		
 
-</body>
-</html>
+
+
+</body></html>
