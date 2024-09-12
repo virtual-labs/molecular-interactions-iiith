@@ -61,6 +61,22 @@ function getOptions(opt){
 	document.getElementById("end").innerHTML = options;
 }
 </script>
+
+<script>
+		var count=0;
+		function counter(){
+		count++;
+		}
+		</script>
+	
+<script>
+		function check(){
+		if (count ===0){
+		alert('you cannot submit without answering any question ');
+		}
+		}
+		</script>
+
 </head>
 <body>
 <div id="content">
@@ -73,8 +89,8 @@ function getOptions(opt){
     <li>
 	     The magnitude of the harmonic force increases linearly with the internuclear separation of a diatomic molecule 
       <ol type="True">
-	 <li><input type="radio" name="Q1" value="True">True</li>
-	 <li><input type="radio" name="Q1" value="False">False</li>
+	 <li><input type="radio" name="Q1" onclick='counter()' value="True">True</li>
+	 <li><input type="radio" name="Q1" onclick='counter()' value="False">False</li>
 	 
       </ol>
     </li>
@@ -94,8 +110,8 @@ function getOptions(opt){
     <li>
 	 The curvature of the internuclear potential energy is related to the spring constant
       <ol type="True">
-	 <li><input type="radio" name="Q2" value="True">True</li>
-	 <li><input type="radio" name="Q2" value="False">False</li>
+	 <li><input type="radio" name="Q2" onclick='counter()' value="True">True</li>
+	 <li><input type="radio" name="Q2" onclick='counter()' value="False">False</li>
 	 
       </ol>
     </li><br>
@@ -116,8 +132,8 @@ function getOptions(opt){
      <li>
 	 The potential energy at large separation's is essentially the bond energy
       <ol type="True">
-	 <li><input type="radio" name="Q3" value="True">True</li>
-	 <li><input type="radio" name="Q3" value="False">False</li>
+	 <li><input type="radio" name="Q3" onclick='counter()' value="True">True</li>
+	 <li><input type="radio" name="Q3" onclick='counter()' value="False">False</li>
 	 
       </ol>
     </li><br>
@@ -138,8 +154,8 @@ function getOptions(opt){
     <li>
 	      Force is equal to the negative gradient of potential energy
       <ol type="True">
-	 <li><input type="radio" name="Q4" value="True">True</li>
-	 <li><input type="radio" name="Q4" value="False">False</li>
+	 <li><input type="radio" name="Q4" onclick='counter()' value="True">True</li>
+	 <li><input type="radio" name="Q4" onclick='counter()' value="False">False</li>
 	 
       </ol>
     </li><br>
@@ -160,8 +176,8 @@ function getOptions(opt){
      <li>
 	 Morse potential is a symmetric function of internuclear separation 
       <ol type="False">
-	 <li><input type="radio" name="Q5" value="True">True</li>
-	 <li><input type="radio" name="Q5" value="False">False</li>
+	 <li><input type="radio" name="Q5" onclick='counter()' value="True">True</li>
+	 <li><input type="radio" name="Q5" onclick='counter()' value="False">False</li>
 	 
       </ol>
     </li>
@@ -183,15 +199,20 @@ function getOptions(opt){
 </table>
   </ol>
 	
+	
 	<?php	if(!$_POST){ ?>
-	<input type="submit" id="go" class="boundingBox" value="SUBMIT"><br><br><Br>
+	<input type="submit" id="go" class="boundingBox" onclick='check(count)' value="SUBMIT"><br><br><Br>
 	<?php }?>
 	</form>
-<center><button class="boundingBox1" onclick='window.location="./swf.html";'><strong>Back To Experiment<string></button>
-<t><button class="boundingBox1" onclick='window.location="./index.html";'><strong>Back To Theory<string></button></center>
+	
+<center>
+<button class="boundingBox1" onclick='window.location="./swf.html";'><strong>Back To Experiment<string>
+ </button>
+<t><button class="boundingBox1" onclick='window.location="./index.html";'><strong>Back To Theory<string>
+</button> 
+</center>
 
 
 </div>
 </body>
 </html>
-
