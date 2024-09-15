@@ -179,7 +179,6 @@ function getOptions(opt){
 	}
 	?>
   </td></tr>
-
   
    
 </table>
@@ -190,9 +189,7 @@ function getOptions(opt){
 	<?php }?>
 	</form>
 <center><button class="boundingBox1" onclick='window.location="./swf.html";'><strong>Back To Experiment<string></button>
-<t><button class="boundingBox1" onclick='window.location="./index.html";'><strong>Back To Theory<string></button></center>
-
-
+<t><button class="boundingBox1" onclick="window.location="./Theory.html?domain=Chemical Sciences&lab=Molecular Interactions";'><strong>Back To THeory<string></button>
 </div>
 </body>
 </html>
