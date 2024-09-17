@@ -187,7 +187,7 @@ function getOptions(opt){
 	<input type="submit" id="go" class="boundingBox" value="SUBMIT"><br><br><Br>
 	<?php }?>
 	</form>
-<center><button class="boundingBox1" onclick='window.location="./swf.html";'><strong>Back To Experiment<string></button>
+<center><button class="boundingBox1" onclick='window.location="./Experiment.html";'><strong>Back To Experiment<string></button>
 <t><button class="boundingBox1" onclick='window.location="./index.html";'><strong>Back To Theory<string></button></center>
 
 
